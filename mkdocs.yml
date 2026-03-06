@@ -1,0 +1,84 @@
+site_name: GitHub Copilot Metrics & ROI Toolkit
+site_description: Measure Copilot adoption and prove ROI — a practical guide for engineering leaders
+site_url: ""
+repo_url: https://github.com/DevExpGBB/copilot-metrics-roi-toolkit
+repo_name: DevExpGBB/copilot-metrics-roi-toolkit
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Measurement Journey: measurement-journey.md
+  - "Phase 1: Adoption":
+    - Overview: adoption/index.md
+    - Metrics Guide: adoption/metrics.md
+    - Quick Start: adoption/quick-start.md
+    - Analytics-Ready: adoption/analytics-ready.md
+    - Tools & Resources: adoption/tools.md
+  - "Phase 2: Impact & ROI":
+    - Overview: impact/index.md
+    - Metrics Guide: impact/metrics.md
+    - Outcome Correlation: impact/outcome-correlation.md
+    - ROI Framework: impact/roi-framework.md
+    - Tools & Resources: impact/tools.md
+  - Templates:
+    - Overview: exec-templates/index.md
+    - KPI Table: exec-templates/kpi-table.md
+    - ROI One-Pager: exec-templates/roi-one-pager.md
+    - QBR Outline: exec-templates/qbr-outline.md
+    - Measurement Plan: exec-templates/measurement-plan.md
+  - Reference:
+    - Dashboards & Data Sources: dashboards-data-sources.md
+    - Tool Catalog: tool-catalog.md
+    - FAQ & Glossary: faq-glossary.md
+    - References: references.md
