@@ -133,12 +133,12 @@ A curated catalog of tools for measuring GitHub Copilot adoption and impact. Eac
 
 ---
 
-## 7. gh-devlake (DORA + Copilot Correlation)
+## 7. gh-devlake (Apache DevLake for DORA + Copilot Correlation)
 
 | | |
 |---|---|
 | **What it's for** | Correlates Copilot adoption with engineering delivery outcomes (DORA metrics). Deploys Apache DevLake with GitHub + Copilot plugins and pre-built Grafana dashboards for adoption **and** impact. |
-| **When to use** | **Outcome Correlation** maturity. When leadership asks *"Is Copilot making us ship faster?"* |
+| **When to use** | **Impact & ROI** maturity. Use it when leadership asks *"Is Copilot making us ship faster?"* and you want a prebuilt open-source correlation stack. |
 | **Setup effort** | :material-circle-multiple: **High** — Docker or Azure deployment, multi-tool configuration |
 | **Data retention** | Full history in DevLake's MySQL database |
 | **Cost** | Free locally (Docker). ~$30–50/month on Azure (Container Instances + MySQL) |
@@ -169,7 +169,7 @@ A curated catalog of tools for measuring GitHub Copilot adoption and impact. Eac
 | copilot-metrics-viewer | Analytics | Medium | Free | No | No (legacy API) | No |
 | Power BI Viewer | Analytics | Medium | Free* | Yes | Yes | No |
 | copilot-metrics-tools | Analytics | Low | Free | Yes | N/A (premium requests) | No |
-| gh-devlake | Correlation | High | Free / $30–50/mo | Via DevLake | Via API | **Yes** |
+| gh-devlake | Impact & ROI | High | Free / $30–50/mo | Via DevLake | Via API | **Yes** |
 
 *\* Power BI Desktop is free. Power BI Service requires a license for sharing dashboards.*
 
@@ -180,4 +180,4 @@ A curated catalog of tools for measuring GitHub Copilot adoption and impact. Eac
 - **Just getting started?** Open the [Native Usage Metrics Dashboard](#1-native-usage-metrics-dashboard) — it requires zero setup.
 - **Need historical data or custom reports?** Set up the [Usage Metrics API + NDJSON export](#3-copilot-usage-metrics-apis-ndjson-export) and feed it into Power BI or your existing BI stack.
 - **Tracking premium request costs?** Run the [copilot-metrics-tools](#6-copilot-metrics-tools-premium-request-usage) bash script for a quick snapshot.
-- **Ready to prove business impact?** Deploy [gh-devlake](#7-gh-devlake-dora-copilot-correlation) to correlate adoption with DORA metrics.
+- **Ready to prove business impact?** Deploy [gh-devlake](#7-gh-devlake-apache-devlake-for-dora-copilot-correlation) to correlate adoption with DORA metrics.

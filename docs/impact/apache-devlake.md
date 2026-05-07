@@ -4,7 +4,7 @@
 
 ---
 
-This playbook shows how to implement outcome correlation with **Apache DevLake** and the `gh-devlake` CLI.
+This playbook shows how to implement delivery-outcome correlation with **Apache DevLake** and the `gh-devlake` CLI.
 
 !!! note "One option, not a requirement"
     You do **not** need Apache DevLake to correlate Copilot adoption with delivery outcomes. Use this playbook when you want a prebuilt open-source stack for ingestion, normalization, and dashboards. If you already have another engineering analytics platform, reuse the same baseline, segmentation, and ROI steps with your existing data stack.

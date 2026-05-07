@@ -15,7 +15,7 @@ This toolkit provides a structured approach to **measuring** GitHub Copilot's im
 
 | Audience | What you'll find |
 |----------|-----------------|
-| **Engineering Leaders** (CTO, VP Eng) | ROI frameworks, executive templates, outcome correlation |
+| **Engineering Leaders** (CTO, VP Eng) | ROI frameworks, executive templates, delivery outcome analysis |
 | **DevEx / Platform Teams** | Dashboards, APIs, data pipelines, measurement playbooks |
 | **FinOps / Procurement** | Cost analysis, license utilization, ROI one-pagers |
 | **Copilot Admins** | Usage metrics, scope/limitations, API reference |
@@ -29,11 +29,13 @@ Choose your path based on where you are:
 |------|-------------|------------|
 | 🟢 **Quick Start** | Native dashboards, minimal setup | [Quick Start](docs/adoption/quick-start.md) |
 | 🟡 **Analytics-Ready** | NDJSON exports + BI tools | [Analytics-Ready](docs/adoption/analytics-ready.md) |
-| 🔴 **Outcome Correlation** | DORA + Copilot correlation; Apache DevLake is one implementation path | [Using Apache DevLake](docs/impact/apache-devlake.md) |
+| 🔴 **Using Apache DevLake** | Prebuilt DORA + Copilot correlation path; your existing analytics stack can follow the same method | [Using Apache DevLake](docs/impact/apache-devlake.md) |
 
 ## Documentation Site
 
 The full toolkit is available as a browsable documentation site:
+
+- Live site: [https://devexpgbb.github.io/copilot-metrics-roi-toolkit/](https://devexpgbb.github.io/copilot-metrics-roi-toolkit/)
 
 ```bash
 # Local development

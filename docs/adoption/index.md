@@ -2,7 +2,7 @@
 
 **Are developers using Copilot? How deeply? Where are the gaps?**
 
-Phase 1 focuses on understanding adoption breadth and depth before attempting to measure business impact. You need stable adoption data before outcome correlation is meaningful.
+Phase 1 focuses on understanding adoption breadth and depth before attempting to measure business impact. You need stable adoption data before correlating Copilot usage with delivery outcomes.
 
 ---
 
