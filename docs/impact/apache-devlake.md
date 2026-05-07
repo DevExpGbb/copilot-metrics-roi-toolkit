@@ -9,6 +9,9 @@ This playbook shows one implementation path: deploy **Apache DevLake** with the 
 !!! note "One option, not a requirement"
     You do **not** need Apache DevLake to correlate Copilot adoption with delivery outcomes. Use this playbook when you want a prebuilt open-source stack for ingestion, normalization, and dashboards. If you already have another engineering analytics platform, reuse the same baseline, segmentation, and ROI steps with your existing data stack.
 
+!!! info "Decision-maker deck"
+    Download the [Apache DevLake decision-maker guide](../assets/devlake-decision-makers-guide.pptx) for a concise overview of DevLake architecture, fit vs. alternatives, cost and ownership tradeoffs, phased adoption guidance, and example Copilot impact dashboards.
+
 ---
 
 ## Prerequisites

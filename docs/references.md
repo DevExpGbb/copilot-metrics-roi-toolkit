@@ -53,5 +53,5 @@ The following artifacts were discovered via internal M365 search and informed th
 - :material-microsoft-sharepoint: **12/25 GitHub Copilot Technical Update Briefing** (SharePoint) — Technical deep-dive covering NDJSON format, code generation dashboard, and API changes
 - :material-microsoft-sharepoint: **Solution Optimization for GitHub Copilot** (SharePoint) — ROI justification frameworks, Power BI templates, Grafana dashboards, and holistic measurement approaches
 - :material-email: **Legacy Copilot Metrics API Retirement Notice** (Email) — Sunset dates and migration guidance for legacy API consumers
-- :material-presentation: **Apache DevLake GBB Offsite Deck** — DORA-based metrics methodology, PR cycle time analysis, and known limitations
+- :material-presentation: [**Apache DevLake GBB Offsite Deck**](assets/devlake-decision-makers-guide.pptx) — DORA-based metrics methodology, PR cycle time analysis, architecture, decision criteria, and known limitations
 - :material-presentation: **ROI-GitHub-Copilot deck** — DORA, SPACE, and PR metrics frameworks for executive discussions
