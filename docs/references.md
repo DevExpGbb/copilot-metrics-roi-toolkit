@@ -9,6 +9,16 @@ Curated list of external and internal sources used to build this toolkit.
 
 ---
 
+## :material-file-document-multiple: Repo-hosted Reference Assets
+
+Cross-phase reference materials that are hosted with this toolkit.
+
+| Asset | Description | Link |
+|---|---|---|
+| GitHub Copilot Metrics PDF | Cross-phase metrics reference covering adoption and ROI metrics. Courtesy of Warren Joubert, Microsoft (Senior Software Solutions Engineer). | [:material-file-pdf-box: Download PDF](assets/GitHub_Copilot_Metrics.pdf) |
+
+---
+
 ## :material-earth: External Sources
 
 Public documentation, tools, and research referenced throughout this toolkit.
@@ -16,7 +26,6 @@ Public documentation, tools, and research referenced throughout this toolkit.
 | Source | Description | Link |
 |---|---|---|
 | GitHub Copilot usage metrics concepts | Official metrics documentation | [:octicons-link-external-16: docs.github.com](https://docs.github.com/en/copilot/concepts/copilot-usage-metrics/copilot-metrics) |
-| GitHub Copilot Metrics PDF | Repo-hosted reference PDF courtesy of Warren Joubert, Microsoft (Senior Software Solutions Engineer) | [:material-file-pdf-box: Download PDF](assets/GitHub_Copilot_Metrics.pdf) |
 | View usage & adoption dashboard | Dashboard access guide | [:octicons-link-external-16: docs.github.com](https://docs.github.com/en/copilot/how-tos/administer-copilot/view-usage-and-adoption) |
 | View code generation dashboard | Code gen metrics guide | [:octicons-link-external-16: docs.github.com](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/view-code-generation) |
 | REST API: Copilot Usage Metrics | API endpoint reference | [:octicons-link-external-16: docs.github.com](https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics) |

@@ -80,6 +80,13 @@ Tier 3 (High):   PR Cycle Time = 2.4 days
 
 ---
 
+## Further Reading
+
+- [Shared metrics references](../references.md) - includes the cross-phase GitHub Copilot Metrics PDF with adoption and ROI metrics
+- [DORA Research](https://dora.dev/research/)
+
+---
+
 **What to do next:**
 
 - :material-connection: [Use Apache DevLake](apache-devlake.md) if you want a prebuilt way to collect and join this data
