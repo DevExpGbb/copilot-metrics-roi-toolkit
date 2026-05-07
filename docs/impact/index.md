@@ -10,9 +10,9 @@ Phase 2 bridges the gap between adoption data and business impact. Usage metrics
 
 You know your acceptance rate is 35%. But has that changed how fast you ship? Are PRs moving faster? Is deployment cadence improving? Are developers reporting less friction and more confidence in their daily workflow?
 
-**The missing link: combining DX signals, delivery outcomes, and business value.**
+**The missing link: combining Developer Experience signals, delivery outcomes, and business value.**
 
-Good DX measurement looks for points of friction, tracks whether they shrink, and then shows whether those improvements compound into better delivery, stronger developer sentiment, and clearer ROI. Without that chain, you're defending a license investment with activity metrics alone — and that story gets thin fast in a QBR.
+Good Developer Experience measurement looks for points of friction, tracks whether they shrink, and then shows whether those improvements compound into better delivery, stronger developer sentiment, and clearer ROI. Without that chain, you're defending a license investment with activity metrics alone — and that story gets thin fast in a QBR.
 
 ---
 
@@ -20,7 +20,7 @@ Good DX measurement looks for points of friction, tracks whether they shrink, an
 
 | Your situation | Start here |
 |---|---|
-| Need to understand what to measure across DX, delivery, and value | [Metrics Guide](metrics.md) — friction signals, surveys, DORA, and value framing |
+| Need to understand what to measure across Developer Experience, delivery, and value | [Metrics Guide](metrics.md) — friction signals, surveys, DORA, and value framing |
 | Need to build an ROI case for leadership | [ROI Framework](roi-framework.md) — 5-step formula, evidence stack, exec narrative |
 | Want a prebuilt path for DORA + Copilot correlation | [Using Apache DevLake](apache-devlake.md) — one implementation path, 1-3 days |
 | Looking for tools to measure impact | [Tools & Resources](tools.md) — Phase 2 tool catalog |

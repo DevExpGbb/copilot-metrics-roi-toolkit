@@ -1,12 +1,12 @@
 # Impact Metrics Guide
 
-Use DX signals, delivery outcomes, and business-value measures together to find friction, reduce it, and show whether Copilot is improving the engineering system.
+Use Developer Experience signals, delivery outcomes, and business-value measures together to find friction, reduce it, and show whether Copilot is improving the engineering system.
 
-Good DX measurement does more than correlate DORA metrics. It looks for points of friction in the developer loop, tracks whether they are getting easier to navigate, and then connects those improvements to delivery speed, quality, satisfaction, and business value.
+Good Developer Experience measurement does more than correlate DORA metrics. It looks for points of friction in the developer loop, tracks whether they are getting easier to navigate, and then connects those improvements to delivery speed, quality, satisfaction, and business value.
 
 ---
 
-## Delivery and DX Outcomes to Track
+## Delivery and Developer Experience Outcomes to Track
 
 | Metric | How Copilot May Influence It | How to Measure |
 |---|---|---|
