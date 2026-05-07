@@ -9,9 +9,6 @@ This playbook shows one implementation path: deploy **Apache DevLake** with the 
 !!! note "One option, not a requirement"
     You do **not** need Apache DevLake to correlate Copilot adoption with delivery outcomes. Use this playbook when you want a prebuilt open-source stack for ingestion, normalization, and dashboards. If you already have another engineering analytics platform, reuse the same baseline, segmentation, and ROI steps with your existing data stack.
 
-!!! info "Decision-maker deck"
-    Download the [Apache DevLake decision-maker guide](../assets/devlake-decision-makers-guide.pptx) for a concise overview of DevLake architecture, fit vs. alternatives, cost and ownership tradeoffs, phased adoption guidance, and example Copilot impact dashboards.
-
 ---
 
 ## Prerequisites
@@ -64,7 +61,7 @@ gh devlake configure connection add \
 You'll be prompted for your PAT. Apache DevLake ingests repositories, PRs, deployments, and commits.
 
 !!! note "Multiple Organizations"
-    Repeat for each org. DevLake aggregates data across orgs.
+    Repeat for each org. Apache DevLake aggregates data across orgs.
 
 ---
 
@@ -205,7 +202,7 @@ ROI = (Time Saved × Blended Developer Rate) - Copilot License Cost
 
 ## What to Do Next
 
-- :material-server: Deploy DevLake and start your **initial data sync** today
+- :material-server: Deploy Apache DevLake and start your **initial data sync** today
 - :material-chart-scatter-plot: Identify your **baseline period** and document pre-Copilot metrics
 - :material-account-multiple-check: Share the **Impact Dashboard** with your VP of Engineering within 2 weeks
 - :material-presentation: Build your **ROI one-pager** using the [template](../exec-templates/roi-one-pager.md)
