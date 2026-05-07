@@ -137,6 +137,7 @@ Use this page to answer four questions:
 
 ## Further Reading
 
+- [GitHub Copilot Metrics PDF](../assets/GitHub_Copilot_Metrics.pdf) - repo-hosted reference PDF courtesy of **Warren Joubert** (Microsoft, Senior Software Solutions Engineer)
 - [GitHub Copilot usage metrics concepts](https://docs.github.com/en/copilot/concepts/copilot-usage-metrics/copilot-metrics)
 - [View usage and adoption](https://docs.github.com/en/copilot/how-tos/administer-copilot/view-usage-and-adoption)
 - [Interpret Copilot metrics](https://docs.github.com/en/copilot/reference/interpret-copilot-metrics)

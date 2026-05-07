@@ -16,6 +16,7 @@ Public documentation, tools, and research referenced throughout this toolkit.
 | Source | Description | Link |
 |---|---|---|
 | GitHub Copilot usage metrics concepts | Official metrics documentation | [:octicons-link-external-16: docs.github.com](https://docs.github.com/en/copilot/concepts/copilot-usage-metrics/copilot-metrics) |
+| GitHub Copilot Metrics PDF | Repo-hosted reference PDF courtesy of Warren Joubert, Microsoft (Senior Software Solutions Engineer) | [:material-file-pdf-box: Download PDF](assets/GitHub_Copilot_Metrics.pdf) |
 | View usage & adoption dashboard | Dashboard access guide | [:octicons-link-external-16: docs.github.com](https://docs.github.com/en/copilot/how-tos/administer-copilot/view-usage-and-adoption) |
 | View code generation dashboard | Code gen metrics guide | [:octicons-link-external-16: docs.github.com](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/administer-copilot/view-code-generation) |
 | REST API: Copilot Usage Metrics | API endpoint reference | [:octicons-link-external-16: docs.github.com](https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics) |
