@@ -105,7 +105,7 @@ Common questions about GitHub Copilot metrics, followed by a glossary of key ter
     3. **Translate to business value** — quantify time savings, quality improvements
     4. **Compare vs license cost** — calculate net ROI
 
-    Use [gh-devlake](https://github.com/DevExpGBB/gh-devlake) for DORA metric correlation.
+    Use [Apache DevLake](impact/apache-devlake.md) if you want a prebuilt open-source path for DORA-style correlation, or combine the same data sources in your existing analytics stack.
 
 ??? question "13. What is NDJSON?"
 
@@ -122,7 +122,9 @@ Common questions about GitHub Copilot metrics, followed by a glossary of key ter
 
 ??? question "15. Can I correlate Copilot usage with delivery outcomes?"
 
-    Yes — using **Apache DevLake** via [gh-devlake](https://github.com/DevExpGBB/gh-devlake). This allows you to correlate adoption tiers with:
+    Yes. One option is **Apache DevLake**, which can ingest Copilot, GitHub, and delivery data into a common model for dashboards and adoption-tier analysis. You can also build the same views in your existing analytics stack.
+
+    Common metrics to compare by adoption tier include:
 
     - PR cycle time
     - Deployment frequency

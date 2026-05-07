@@ -4,10 +4,13 @@
 
 ---
 
-This playbook shows how to implement delivery-outcome correlation with **Apache DevLake** and the `gh-devlake` CLI.
+This playbook shows one implementation path: deploy **Apache DevLake** with the `gh-devlake` CLI, then use Apache DevLake to ingest Copilot, GitHub, and delivery data into a common model for dashboarding and analysis.
 
 !!! note "One option, not a requirement"
     You do **not** need Apache DevLake to correlate Copilot adoption with delivery outcomes. Use this playbook when you want a prebuilt open-source stack for ingestion, normalization, and dashboards. If you already have another engineering analytics platform, reuse the same baseline, segmentation, and ROI steps with your existing data stack.
+
+!!! info "Decision-maker deck"
+    Download the [Apache DevLake decision-maker guide](../assets/devlake-decision-makers-guide.pptx) for a concise overview of DevLake architecture, fit vs. alternatives, cost and ownership tradeoffs, phased adoption guidance, and example Copilot impact dashboards.
 
 ---
 
@@ -34,7 +37,7 @@ Install the `gh-devlake` CLI extension and deploy:
     ```
 
     !!! info "System Requirements"
-        Requires Docker with at least **4 GB RAM**. Stack includes DevLake, MySQL, and Grafana.
+        Requires Docker with at least **4 GB RAM**. Stack includes Apache DevLake, its backing services, and Grafana.
 
 === "Azure"
 
@@ -58,7 +61,7 @@ gh devlake configure connection add \
   --org my-org
 ```
 
-You'll be prompted for your PAT. DevLake ingests repositories, PRs, deployments, and commits.
+You'll be prompted for your PAT. Apache DevLake ingests repositories, PRs, deployments, and commits.
 
 !!! note "Multiple Organizations"
     Repeat for each org. DevLake aggregates data across orgs.
@@ -73,7 +76,7 @@ gh devlake configure connection add \
   --org my-org
 ```
 
-Pulls daily active users, acceptance rates, feature-level usage, and seat utilization.
+This configures Apache DevLake's `gh-copilot` plugin to pull daily active users, acceptance rates, feature-level usage, and seat utilization.
 
 ---
 
@@ -83,7 +86,7 @@ Pulls daily active users, acceptance rates, feature-level usage, and seat utiliz
 gh devlake configure full
 ```
 
-This interactive command lists connections, lets you select repositories (start with 3–5 key repos), creates a project, and triggers the initial sync.
+This interactive command lists connections, lets you select repositories (start with 3–5 key repos), creates a project, and triggers the initial Apache DevLake sync.
 
 !!! tip "Start Small"
     Pick 3–5 representative repositories with active development. Expand later.
@@ -112,6 +115,8 @@ Or check the Config UI at `localhost:4000` (local) or your Azure endpoint.
 ## Step 6: Open Grafana and Review Dashboards
 
 **URL:** `http://localhost:3002` (local) or Azure Grafana endpoint · **Credentials:** admin / admin
+
+Apache DevLake ships Grafana dashboards once the data is synced.
 
 #### Adoption Dashboard
 
@@ -194,7 +199,7 @@ ROI = (Time Saved × Blended Developer Rate) - Copilot License Cost
 
 ---
 
-**Result:** A working Apache DevLake implementation for correlating Copilot usage with DORA metrics, plus baseline measurements, correlation analysis, and an executive-ready ROI narrative.
+**Result:** A working Apache DevLake environment for correlating Copilot usage with DORA metrics, plus baseline measurements, correlation analysis, and an executive-ready ROI narrative.
 
 ---
 

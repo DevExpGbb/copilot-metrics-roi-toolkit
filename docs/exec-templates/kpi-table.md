@@ -31,7 +31,7 @@
 | Chat Engagement | Avg chat requests per active user per day | Usage Dashboard | — | — | Increasing | 🔴🟡🟢 | ↑↓→ |
 | Agent Adoption % | % of active users using agent or edit modes | Code Gen Dashboard | — | — | >20% | 🔴🟡🟢 | ↑↓→ |
 | Lines Added with AI | Lines of code accepted into editor (28-day window) | Code Gen Dashboard | — | — | Increasing | 🔴🟡🟢 | ↑↓→ |
-| PR Cycle Time | Median time from PR open to merge | gh-devlake / Git analytics | — | — | Decreasing | 🔴🟡🟢 | ↑↓→ |
+| PR Cycle Time | Median time from PR open to merge | Apache DevLake / Git analytics | — | — | Decreasing | 🔴🟡🟢 | ↑↓→ |
 | Deployment Frequency | Number of production deploys per week | CI/CD + DevLake | — | — | Increasing | 🔴🟡🟢 | ↑↓→ |
 | Developer Satisfaction | Average developer survey score (1–5 scale) | Internal survey | — | — | >4.0/5 | 🔴🟡🟢 | ↑↓→ |
 | License ROI | (Value Created − License Cost) ÷ License Cost | Calculated | — | — | >200% | 🔴🟡🟢 | ↑↓→ |

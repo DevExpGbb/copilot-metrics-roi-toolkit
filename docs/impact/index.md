@@ -2,17 +2,17 @@
 
 **Is Copilot improving delivery outcomes? Can you defend the investment?**
 
-Phase 2 bridges the gap between adoption data and business impact. Usage metrics tell you Copilot is being *used* — they don't tell you what that usage is *doing* to your software delivery.
+Phase 2 bridges the gap between adoption data and business impact. Usage metrics tell you Copilot is being *used* — they do not tell you where developer friction is falling, whether delivery is improving, or how those changes connect to business value.
 
 ---
 
 ## The Observability Gap
 
-You know your acceptance rate is 35%. But has that changed how fast you ship? Are PRs moving faster? Is deployment cadence improving?
+You know your acceptance rate is 35%. But has that changed how fast you ship? Are PRs moving faster? Is deployment cadence improving? Are developers reporting less friction and more confidence in their daily workflow?
 
-**The missing link: correlating AI adoption with delivery outcomes.**
+**The missing link: combining DX signals, delivery outcomes, and business value.**
 
-Without this correlation, you're defending a license investment with activity metrics alone — and that story gets thin fast in a QBR.
+Good DX measurement looks for points of friction, tracks whether they shrink, and then shows whether those improvements compound into better delivery, stronger developer sentiment, and clearer ROI. Without that chain, you're defending a license investment with activity metrics alone — and that story gets thin fast in a QBR.
 
 ---
 
@@ -20,9 +20,9 @@ Without this correlation, you're defending a license investment with activity me
 
 | Your situation | Start here |
 |---|---|
-| Need to understand what delivery metrics to track | [Metrics Guide](metrics.md) — DORA, PR lifecycle, what to correlate |
+| Need to understand what to measure across DX, delivery, and value | [Metrics Guide](metrics.md) — friction signals, surveys, DORA, and value framing |
+| Need to build an ROI case for leadership | [ROI Framework](roi-framework.md) — 5-step formula, evidence stack, exec narrative |
 | Want a prebuilt path for DORA + Copilot correlation | [Using Apache DevLake](apache-devlake.md) — one implementation path, 1-3 days |
-| Need to build an ROI case for leadership | [ROI Framework](roi-framework.md) — 5-step formula, exec narrative |
 | Looking for tools to measure impact | [Tools & Resources](tools.md) — Phase 2 tool catalog |
 
 ---
@@ -36,9 +36,20 @@ Without this correlation, you're defending a license investment with activity me
 | **Change Failure Rate** | Quality under velocity | Incident tracking / analytics platform |
 | **MTTR** | Recovery speed | Incident tracking |
 | **Time to Merge** | Review efficiency | GitHub PR data |
+| **Developer Satisfaction** | Friction reduction and workflow confidence | Developer surveys |
 | **ROI Ratio** | Investment justification | Calculated |
 
 → Full definitions: [Metrics Guide](metrics.md)
+
+!!! info "Do not skip developer surveys"
+    Delivery telemetry shows **what** changed. Developer surveys show **where friction still exists** and whether Copilot is improving confidence, flow, and perceived value.
+
+    Example Microsoft Forms survey starters (may require Microsoft 365 access):
+
+    - [Developer survey 1](https://forms.office.com/Pages/ShareFormPage.aspx?id=v4j5cvGGr0GRqy180BHbR34hWRZZ-8pFpBporu7qxHBUNFpSOFZORjNFNEg2OTRFSUlQRTlPNEc4Sy4u&sharetoken=rWoZYGvI2EhPesse1YCv)
+    - [Developer survey 2](https://forms.office.com/Pages/ShareFormPage.aspx?id=v4j5cvGGr0GRqy180BHbR34hWRZZ-8pFpBporu7qxHBUOUtRTDBRVlRPS1RCTlM1OFIxWjgyRjE5Uy4u&sharetoken=0Q5OivxWN0pb9Oq9lkDx)
+    - [Developer survey 3](https://forms.office.com/Pages/ShareFormPage.aspx?id=v4j5cvGGr0GRqy180BHbR34hWRZZ-8pFpBporu7qxHBUOFBGOVFTMkw0WFBJTUtFQzA5OE85Vk1JVy4u&sharetoken=ukwlljw1HXjO92V9Lmo9)
+    - [Developer survey 4](https://forms.office.com/Pages/ShareFormPage.aspx?id=v4j5cvGGr0GRqy180BHbR34hWRZZ-8pFpBporu7qxHBUN1FLNEVTRTJPN0I1U1JVUFkyNjVHWjcyRi4u&sharetoken=u03lk7G9SQoaPlxf6Ckx)
 
 ---
 
@@ -64,5 +75,5 @@ graph LR
 **What to do next:**
 
 - :material-book-open: [Metrics Guide](metrics.md) to understand what to measure
-- :material-connection: [Using Apache DevLake](apache-devlake.md) if you want a prebuilt correlation stack
 - :material-calculator: [ROI Framework](roi-framework.md) to build your executive case
+- :material-connection: [Using Apache DevLake](apache-devlake.md) if you want a prebuilt correlation stack

@@ -1,13 +1,17 @@
 # Impact Metrics Guide
 
-Delivery and DORA metrics to correlate with Copilot adoption.
+Use DX signals, delivery outcomes, and business-value measures together to find friction, reduce it, and show whether Copilot is improving the engineering system.
+
+Good DX measurement does more than correlate DORA metrics. It looks for points of friction in the developer loop, tracks whether they are getting easier to navigate, and then connects those improvements to delivery speed, quality, satisfaction, and business value.
 
 ---
 
-## Delivery Outcomes to Track
+## Delivery and DX Outcomes to Track
 
 | Metric | How Copilot May Influence It | How to Measure |
 |---|---|---|
+| **Developer Satisfaction** | Less friction can improve confidence, flow, and willingness to keep using Copilot | Pulse surveys, recurring sentiment questions, qualitative comments |
+| **Self-Reported Time Saved / Friction Reduced** | Copilot can reduce repetitive work, waiting, and context switching | Short developer surveys, recurring pulse checks, retrospective comments |
 | **PR Throughput** | More code generated → more PRs | PR creation/merge counts over time |
 | **PR Cycle Time** | Faster coding + AI reviews → shorter cycles | Median time open → merge |
 | **Time to Merge** | Quicker reviews with Copilot suggestions | Median review + merge duration |
@@ -17,16 +21,33 @@ Delivery and DORA metrics to correlate with Copilot adoption.
 
 ---
 
+## Why Surveys Matter
+
+Surveys highlight friction that telemetry misses: confidence, perceived quality, time lost to repetitive work, and whether developers feel Copilot is helping them stay in flow. Use them alongside delivery metrics, not instead of them.
+
+!!! info "Developer survey starters"
+    Example Microsoft Forms survey links (may require Microsoft 365 access):
+
+    - [Developer survey 1](https://forms.office.com/Pages/ShareFormPage.aspx?id=v4j5cvGGr0GRqy180BHbR34hWRZZ-8pFpBporu7qxHBUNFpSOFZORjNFNEg2OTRFSUlQRTlPNEc4Sy4u&sharetoken=rWoZYGvI2EhPesse1YCv)
+    - [Developer survey 2](https://forms.office.com/Pages/ShareFormPage.aspx?id=v4j5cvGGr0GRqy180BHbR34hWRZZ-8pFpBporu7qxHBUOUtRTDBRVlRPS1RCTlM1OFIxWjgyRjE5Uy4u&sharetoken=0Q5OivxWN0pb9Oq9lkDx)
+    - [Developer survey 3](https://forms.office.com/Pages/ShareFormPage.aspx?id=v4j5cvGGr0GRqy180BHbR34hWRZZ-8pFpBporu7qxHBUOFBGOVFTMkw0WFBJTUtFQzA5OE85Vk1JVy4u&sharetoken=ukwlljw1HXjO92V9Lmo9)
+    - [Developer survey 4](https://forms.office.com/Pages/ShareFormPage.aspx?id=v4j5cvGGr0GRqy180BHbR34hWRZZ-8pFpBporu7qxHBUN1FLNEVTRTJPN0I1U1JVUFkyNjVHWjcyRi4u&sharetoken=u03lk7G9SQoaPlxf6Ckx)
+
+---
+
 ## Where This Data Lives
 
-| Data | Source | Tool |
+| Data | Source | Typical tools / destinations |
 |---|---|---|
-| PR metrics | GitHub API / repository data | GitHub, DevLake |
-| Deployments | CI/CD pipeline | GitHub Actions, Jenkins, DevLake |
-| Incidents | Issue tracker | GitHub Issues, Jira, PagerDuty |
-| Copilot usage | Copilot Usage Metrics API | DevLake (gh-copilot plugin) |
+| Developer surveys | Microsoft Forms or another internal survey platform | Microsoft Forms, Qualtrics, Google Forms, Culture Amp |
+| PR metrics | GitHub API / repository data | GitHub, Apache DevLake, Power BI, Splunk, or another analytics stack |
+| Deployments | CI/CD pipeline | GitHub Actions, Jenkins, Apache DevLake, Splunk, or another analytics stack |
+| Incidents | Issue tracker | GitHub Issues, Jira, PagerDuty, Splunk, or another analytics stack |
+| Copilot usage | Copilot Usage Metrics API / dashboard exports | GitHub native dashboards, Apache DevLake, Power BI, Splunk, or another BI stack |
 
-The correlation happens when you **join** Copilot adoption data with delivery data — by team, time period, or adoption tier. [gh-devlake](https://github.com/DevExpGBB/gh-devlake) does this automatically.
+If you already use Power BI, Splunk, Tableau, or another BI stack, feed the Copilot usage data and your delivery data into that platform and build the views there. If you want a prebuilt open-source path, **Apache DevLake** ingests Copilot, GitHub, and delivery data into a common schema and ships Grafana dashboards for adoption-tier and DORA-style analysis.
+
+→ For native data collection and BI ingestion patterns, see the [Analytics-Ready Playbook](../adoption/analytics-ready.md).
 
 ---
 
@@ -42,7 +63,7 @@ DORA (DevOps Research and Assessment) provides four key metrics with industry be
 | **MTTR** | < 1 hour | < 1 day | 1 day–1 week | 1 week+ |
 
 !!! info
-    DevLake implements DORA with built-in benchmarking. Configure deployment patterns and incident labels, and DevLake calculates the metrics automatically.
+    Apache DevLake includes built-in DORA models and dashboards once deployment patterns and incident labels are configured. Other BI stacks can support the same analysis, but you will define more of the model yourself.
 
 ---
 
@@ -78,6 +99,8 @@ Tier 3 (High):   PR Cycle Time = 2.4 days
 !!! tip
     Shorter windows are noisy. Account for confounding variables: team changes, process improvements, seasonal patterns.
 
+Baseline should include at least one short developer survey so you can compare perceived friction and satisfaction over time, not just operational metrics.
+
 ---
 
 ## Further Reading
@@ -89,5 +112,5 @@ Tier 3 (High):   PR Cycle Time = 2.4 days
 
 **What to do next:**
 
-- :material-connection: [Use Apache DevLake](apache-devlake.md) if you want a prebuilt way to collect and join this data
 - :material-calculator: [ROI Framework](roi-framework.md) to translate metrics into business value
+- :material-connection: [Use Apache DevLake](apache-devlake.md) if you want a prebuilt way to collect and correlate this data

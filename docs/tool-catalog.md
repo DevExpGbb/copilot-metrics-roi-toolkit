@@ -133,14 +133,14 @@ A curated catalog of tools for measuring GitHub Copilot adoption and impact. Eac
 
 ---
 
-## 7. gh-devlake (Apache DevLake for DORA + Copilot Correlation)
+## 7. Apache DevLake (with gh-devlake helper)
 
 | | |
 |---|---|
-| **What it's for** | Correlates Copilot adoption with engineering delivery outcomes (DORA metrics). Deploys Apache DevLake with GitHub + Copilot plugins and pre-built Grafana dashboards for adoption **and** impact. |
+| **What it's for** | Apache DevLake correlates Copilot adoption with engineering delivery outcomes (DORA metrics). `gh-devlake` is the CLI helper for deploying and configuring that stack. |
 | **When to use** | **Impact & ROI** maturity. Use it when leadership asks *"Is Copilot making us ship faster?"* and you want a prebuilt open-source correlation stack. |
 | **Setup effort** | :material-circle-multiple: **High** — Docker or Azure deployment, multi-tool configuration |
-| **Data retention** | Full history in DevLake's MySQL database |
+| **Data retention** | Full history in Apache DevLake's backing database |
 | **Cost** | Free locally (Docker). ~$30–50/month on Azure (Container Instances + MySQL) |
 | **Links** | [GitHub repo](https://github.com/DevExpGBB/gh-devlake) · [Blog post](https://devblogs.microsoft.com/all-things-azure/measuring-actual-ai-impact-for-engineering-with-apache-devlake/) |
 
@@ -155,7 +155,7 @@ A curated catalog of tools for measuring GitHub Copilot adoption and impact. Eac
 !!! info "Pre-built Grafana Dashboards"
     **Adoption Dashboard** — DAU/WAU/MAU, acceptance rates by language/model/editor, seat effectiveness.
 
-    **Impact Dashboard** — Correlates adoption tiers (<25 %, 25–50 %, 50–75 %, >75 %) with PR velocity, deployment frequency, change failure rate, MTTR, and code review time.
+    **Impact Dashboard** — Apache DevLake visualizes adoption tiers (<25 %, 25–50 %, 50–75 %, >75 %) alongside PR velocity, deployment frequency, change failure rate, MTTR, and code review time.
 
 ---
 
@@ -169,7 +169,7 @@ A curated catalog of tools for measuring GitHub Copilot adoption and impact. Eac
 | copilot-metrics-viewer | Analytics | Medium | Free | No | No (legacy API) | No |
 | Power BI Viewer | Analytics | Medium | Free* | Yes | Yes | No |
 | copilot-metrics-tools | Analytics | Low | Free | Yes | N/A (premium requests) | No |
-| gh-devlake | Impact & ROI | High | Free / $30–50/mo | Via DevLake | Via API | **Yes** |
+| Apache DevLake | Impact & ROI | High | Free / $30–50/mo | Via DevLake | Via API | **Yes** |
 
 *\* Power BI Desktop is free. Power BI Service requires a license for sharing dashboards.*
 
@@ -180,4 +180,4 @@ A curated catalog of tools for measuring GitHub Copilot adoption and impact. Eac
 - **Just getting started?** Open the [Native Usage Metrics Dashboard](#1-native-usage-metrics-dashboard) — it requires zero setup.
 - **Need historical data or custom reports?** Set up the [Usage Metrics API + NDJSON export](#3-copilot-usage-metrics-apis-ndjson-export) and feed it into Power BI or your existing BI stack.
 - **Tracking premium request costs?** Run the [copilot-metrics-tools](#6-copilot-metrics-tools-premium-request-usage) bash script for a quick snapshot.
-- **Ready to prove business impact?** Deploy [gh-devlake](#7-gh-devlake-apache-devlake-for-dora-copilot-correlation) to correlate adoption with DORA metrics.
+- **Ready to prove business impact?** Deploy [Apache DevLake](#7-apache-devlake-with-gh-devlake-helper) if you want a prebuilt open-source way to correlate adoption with DORA metrics.

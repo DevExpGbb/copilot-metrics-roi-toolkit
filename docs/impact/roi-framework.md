@@ -2,6 +2,8 @@
 
 A 5-step process to build a defensible ROI case for Copilot.
 
+Start by identifying where developer workflows are still slow, repetitive, or frustrating. Then show whether reducing that friction improves delivery, developer satisfaction, and ultimately business value.
+
 ```mermaid
 graph LR
     S1[1. Baseline] --> S2[2. Productivity Proxies]
@@ -14,7 +16,7 @@ graph LR
 
 ## Step 1: Establish Baseline
 
-Capture pre-Copilot or low-adoption metrics. Use **4-8 weeks** minimum.
+Capture pre-Copilot or low-adoption metrics. Use **4-8 weeks** minimum, and include at least one short developer survey so you have a baseline for perceived friction and satisfaction.
 
 | Metric | Source |
 |---|---|
@@ -51,7 +53,7 @@ Compare baseline to current state:
 | Code review turnaround | 18 hours | 12 hours | **-33%** |
 
 !!! tip "Segment by adoption tier"
-    Using [gh-devlake](https://github.com/DevExpGBB/gh-devlake), compare low/medium/high adoption teams. A gradient across tiers is stronger evidence than before/after alone.
+    Using [Apache DevLake](apache-devlake.md) or your existing analytics stack, compare low/medium/high adoption teams. A gradient across tiers is stronger evidence than before/after alone.
 
 ---
 

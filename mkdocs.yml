@@ -68,8 +68,8 @@ nav:
   - "Phase 2: Impact & ROI":
     - Overview: impact/index.md
     - Metrics Guide: impact/metrics.md
-    - Using Apache DevLake: impact/apache-devlake.md
     - ROI Framework: impact/roi-framework.md
+    - Using Apache DevLake: impact/apache-devlake.md
     - Tools & Resources: impact/tools.md
   - Templates:
     - Overview: exec-templates/index.md
