@@ -21,7 +21,7 @@ Without this correlation, you're defending a license investment with activity me
 | Your situation | Start here |
 |---|---|
 | Need to understand what delivery metrics to track | [Metrics Guide](metrics.md) — DORA, PR lifecycle, what to correlate |
-| Ready to set up DORA + Copilot correlation | [Outcome Correlation](outcome-correlation.md) — DevLake setup, 1-3 days |
+| Want a prebuilt path for DORA + Copilot correlation | [Using Apache DevLake](apache-devlake.md) — one implementation path, 1-3 days |
 | Need to build an ROI case for leadership | [ROI Framework](roi-framework.md) — 5-step formula, exec narrative |
 | Looking for tools to measure impact | [Tools & Resources](tools.md) — Phase 2 tool catalog |
 
@@ -31,9 +31,9 @@ Without this correlation, you're defending a license investment with activity me
 
 | Metric | What It Tells You | Source |
 |---|---|---|
-| **PR Cycle Time** | Delivery speed (open → merge) | GitHub / DevLake |
-| **Deployment Frequency** | Throughput cadence | CI/CD + DevLake |
-| **Change Failure Rate** | Quality under velocity | Incident tracking + DevLake |
+| **PR Cycle Time** | Delivery speed (open → merge) | GitHub / analytics platform |
+| **Deployment Frequency** | Throughput cadence | CI/CD / analytics platform |
+| **Change Failure Rate** | Quality under velocity | Incident tracking / analytics platform |
 | **MTTR** | Recovery speed | Incident tracking |
 | **Time to Merge** | Review efficiency | GitHub PR data |
 | **ROI Ratio** | Investment justification | Calculated |
@@ -64,5 +64,5 @@ graph LR
 **What to do next:**
 
 - :material-book-open: [Metrics Guide](metrics.md) to understand what to measure
-- :material-connection: [Outcome Correlation](outcome-correlation.md) to set up DevLake
+- :material-connection: [Using Apache DevLake](apache-devlake.md) if you want a prebuilt correlation stack
 - :material-calculator: [ROI Framework](roi-framework.md) to build your executive case

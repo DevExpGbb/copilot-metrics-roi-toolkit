@@ -200,7 +200,7 @@ Include these four panels in your initial dashboard.
 
 You've outgrown this playbook when leadership asks **"Is Copilot making us ship faster?"** and you need to correlate usage with DORA metrics or build an ROI narrative for budget renewal.
 
-:material-arrow-right: Move to the [Outcome Correlation Playbook](../impact/outcome-correlation.md).
+:material-arrow-right: Move to [Using Apache DevLake](../impact/apache-devlake.md) if you want a prebuilt correlation stack.
 
 ---
 
@@ -209,4 +209,4 @@ You've outgrown this playbook when leadership asks **"Is Copilot making us ship 
 - :material-cog: Set up **automated data collection** today
 - :material-view-dashboard: Build your **first dashboard** with the four panels above
 - :material-account-group: Schedule a **stakeholder alignment meeting** on metrics and cadence
-- :material-book-open-variant: Read the [Outcome Correlation Playbook](../impact/outcome-correlation.md) when ready to prove impact
+- :material-book-open-variant: Read [Using Apache DevLake](../impact/apache-devlake.md) when you want a prebuilt path to prove impact

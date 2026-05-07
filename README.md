@@ -29,7 +29,7 @@ Choose your path based on where you are:
 |------|-------------|------------|
 | 🟢 **Quick Start** | Native dashboards, minimal setup | [Quick Start](docs/adoption/quick-start.md) |
 | 🟡 **Analytics-Ready** | NDJSON exports + BI tools | [Analytics-Ready](docs/adoption/analytics-ready.md) |
-| 🔴 **Outcome Correlation** | DORA + Copilot correlation via DevLake | [Outcome Correlation](docs/impact/outcome-correlation.md) |
+| 🔴 **Outcome Correlation** | DORA + Copilot correlation; Apache DevLake is one implementation path | [Using Apache DevLake](docs/impact/apache-devlake.md) |
 
 ## Documentation Site
 

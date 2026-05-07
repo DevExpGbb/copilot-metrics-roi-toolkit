@@ -119,4 +119,4 @@ $$
 
 - :material-file-chart: Build your summary with the [ROI One-Pager Template](../exec-templates/roi-one-pager.md)
 - :material-presentation: Structure your review with the [QBR Outline](../exec-templates/qbr-outline.md)
-- :material-connection: Need correlation data first? [Set up Outcome Correlation](outcome-correlation.md)
+- :material-connection: Need a prebuilt implementation path? [Use Apache DevLake](apache-devlake.md)

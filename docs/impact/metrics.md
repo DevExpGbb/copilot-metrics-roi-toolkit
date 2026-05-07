@@ -82,5 +82,5 @@ Tier 3 (High):   PR Cycle Time = 2.4 days
 
 **What to do next:**
 
-- :material-connection: [Set up Outcome Correlation](outcome-correlation.md) to start collecting this data
+- :material-connection: [Use Apache DevLake](apache-devlake.md) if you want a prebuilt way to collect and join this data
 - :material-calculator: [ROI Framework](roi-framework.md) to translate metrics into business value

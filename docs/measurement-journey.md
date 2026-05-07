@@ -42,7 +42,7 @@ flowchart TD
 |------|-------|:------:|---------|
 | 🟢 **Quick Start** | Native dashboards | Low | First visibility into adoption |
 | 🟡 **Analytics-Ready** | APIs, NDJSON, Power BI | Medium | Custom reporting and BI |
-| 🔴 **Outcome Correlation** | gh-devlake, Grafana | High | Proving engineering impact |
+| 🔴 **Outcome Correlation** | Apache DevLake or your existing data stack | High | Proving engineering impact |
 
 ---
 

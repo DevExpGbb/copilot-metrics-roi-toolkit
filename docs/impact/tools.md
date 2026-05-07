@@ -74,5 +74,5 @@ Analyzes premium request consumption by user and model. Tracks included vs bille
 
 **What to do next:**
 
-- :material-connection: [Set up gh-devlake](outcome-correlation.md) for DORA correlation
+- :material-connection: [Use Apache DevLake](apache-devlake.md) for a prebuilt DORA correlation stack
 - :material-currency-usd: Run [copilot-metrics-tools](#copilot-metrics-tools-premium-request-usage) to check premium request spend
