@@ -4,9 +4,22 @@
 
 ---
 
-## Download
+## Preview
 
-- [Download DOCX artifact](artifacts/copilot-roi-one-pager-template.docx)
+<div class="artifact-preview" markdown>
+<iframe
+  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/copilot-roi-one-pager-template.docx"
+  width="100%"
+  height="480"
+  frameborder="0"
+  title="ROI One-Pager Template preview">
+</iframe>
+
+[:material-download: Download DOCX](artifacts/copilot-roi-one-pager-template.docx){ .md-button }
+</div>
+
+!!! info "Preview details"
+    Preview uses **Microsoft Office Online** and requires an internet connection. Supported types: `.docx`, `.pptx`, `.xlsx`. If the preview does not load, use the download button above.
 
 ## How to Use
 
