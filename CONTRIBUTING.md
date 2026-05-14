@@ -39,6 +39,17 @@ Follow this template in `docs/tool-catalog.md`:
 
 Create a new file in `docs/playbooks/` and add it to the `nav` in `mkdocs.yml`.
 
+## Updating Executive Template Artifacts
+
+When you update any page under `docs/exec-templates/`, keep the downloadable artifact aligned:
+
+1. Edit the markdown template page first (source-of-truth).
+2. Regenerate the mapped artifact in `docs/exec-templates/artifacts/`.
+3. Verify links from the template page and `docs/exec-templates/index.md`.
+4. Run `mkdocs build --strict` before opening a PR.
+
+See `docs/exec-templates/artifact-maintenance.md` for the full mapping and workflow.
+
 ## Style
 
 - Use [MkDocs Material](https://squidfundly.github.io/mkdocs-material/) features (admonitions, tabs, mermaid)
