@@ -4,6 +4,10 @@
 
 ---
 
+## Download
+
+- [Download DOCX artifact](artifacts/copilot-kpi-table-template.docx)
+
 ## How to Use
 
 1. **Copy** this template into your reporting tool (Google Slides, PowerPoint, Confluence, Notion, etc.).

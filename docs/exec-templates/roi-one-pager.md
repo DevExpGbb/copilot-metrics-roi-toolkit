@@ -4,6 +4,10 @@
 
 ---
 
+## Download
+
+- [Download DOCX artifact](artifacts/copilot-roi-one-pager-template.docx)
+
 ## How to Use
 
 1. **Copy** this template and replace all `[PLACEHOLDER]` values with your organization's data.

@@ -4,6 +4,10 @@
 
 ---
 
+## Download
+
+- [Download DOCX artifact](artifacts/copilot-measurement-plan-template.docx)
+
 ## How to Use
 
 1. **Copy** this template into your planning tool (Confluence, Notion, Google Docs, etc.).

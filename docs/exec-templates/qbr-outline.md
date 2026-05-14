@@ -4,6 +4,10 @@
 
 ---
 
+## Download
+
+- [Download PPTX artifact](artifacts/copilot-qbr-outline-template.pptx)
+
 ## How to Use
 
 1. **Copy** this outline and use it as the skeleton for your QBR deck.

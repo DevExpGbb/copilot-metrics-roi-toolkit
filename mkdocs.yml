@@ -77,6 +77,7 @@ nav:
     - ROI One-Pager: exec-templates/roi-one-pager.md
     - QBR Outline: exec-templates/qbr-outline.md
     - Measurement Plan: exec-templates/measurement-plan.md
+    - Artifact Maintenance Workflow: exec-templates/artifact-maintenance.md
   - Reference:
     - Dashboards & Data Sources: dashboards-data-sources.md
     - Tool Catalog: tool-catalog.md
