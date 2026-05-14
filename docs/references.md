@@ -17,6 +17,23 @@ Cross-phase reference materials that are hosted with this toolkit.
 |---|---|---|
 | GitHub Copilot Metrics PDF | Cross-phase metrics reference covering adoption and ROI metrics. Courtesy of Warren Joubert, Microsoft (Senior Software Solutions Engineer). | [:material-file-pdf-box: Download PDF](assets/GitHub_Copilot_Metrics.pdf) |
 
+### GitHub Copilot Metrics PDF
+
+<div class="artifact-preview" markdown>
+<iframe
+  src="https://devexpgbb.github.io/copilot-metrics-roi-toolkit/assets/GitHub_Copilot_Metrics.pdf"
+  width="100%"
+  height="600"
+  frameborder="0"
+  title="GitHub Copilot Metrics PDF preview">
+</iframe>
+
+[:material-download: Download PDF](assets/GitHub_Copilot_Metrics.pdf){ .md-button }
+</div>
+
+!!! info "Preview details"
+    PDF preview renders natively in most modern browsers. If it does not display, use the download button above.
+
 ---
 
 ## :material-earth: External Sources
@@ -53,5 +70,5 @@ The following artifacts were discovered via internal M365 search and informed th
 - :material-microsoft-sharepoint: **12/25 GitHub Copilot Technical Update Briefing** (SharePoint) — Technical deep-dive covering NDJSON format, code generation dashboard, and API changes
 - :material-microsoft-sharepoint: **Solution Optimization for GitHub Copilot** (SharePoint) — ROI justification frameworks, Power BI templates, Grafana dashboards, and holistic measurement approaches
 - :material-email: **Legacy Copilot Metrics API Retirement Notice** (Email) — Sunset dates and migration guidance for legacy API consumers
-- :material-presentation: [**Apache DevLake GBB Offsite Deck**](assets/devlake-decision-makers-guide.pptx) — DORA-based metrics methodology, PR cycle time analysis, architecture, decision criteria, and known limitations
+- :material-presentation: [**Apache DevLake GBB Offsite Deck**](impact/apache-devlake.md) — DORA-based metrics methodology, PR cycle time analysis, architecture, decision criteria, and known limitations *(preview available on the [Apache DevLake page](impact/apache-devlake.md))*
 - :material-presentation: **ROI-GitHub-Copilot deck** — DORA, SPACE, and PR metrics frameworks for executive discussions

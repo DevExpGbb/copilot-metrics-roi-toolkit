@@ -4,9 +4,22 @@
 
 ---
 
-## Download
+## Preview
 
-- [Download PPTX artifact](artifacts/copilot-qbr-outline-template.pptx)
+<div class="artifact-preview" markdown>
+<iframe
+  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/copilot-qbr-outline-template.pptx"
+  width="100%"
+  height="480"
+  frameborder="0"
+  title="QBR Outline Template preview">
+</iframe>
+
+[:material-download: Download PPTX](artifacts/copilot-qbr-outline-template.pptx){ .md-button }
+</div>
+
+!!! info "Preview details"
+    Preview uses **Microsoft Office Online** and requires an internet connection. Supported types: `.docx`, `.pptx`, `.xlsx`. If the preview does not load, use the download button above.
 
 ## How to Use
 

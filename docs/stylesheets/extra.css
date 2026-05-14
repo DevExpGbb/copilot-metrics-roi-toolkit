@@ -1,0 +1,16 @@
+/* Responsive wrapper for inline artifact previews */
+.artifact-preview {
+  margin: 1rem 0;
+}
+
+.artifact-preview iframe {
+  width: 100%;
+  min-height: 480px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  display: block;
+}
+
+.artifact-preview .md-button {
+  margin-top: 0.5rem;
+}
