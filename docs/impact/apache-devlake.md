@@ -13,18 +13,20 @@ This playbook shows one implementation path: deploy **Apache DevLake** with the 
 
 <div class="artifact-preview" markdown>
 <iframe
-  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/assets/devlake-decision-makers-guide.pptx"
+  src="https://devexpgbb.github.io/copilot-metrics-roi-toolkit/assets/devlake-decision-makers-guide.pdf"
   width="100%"
-  height="480"
+  height="600"
   frameborder="0"
   title="Apache DevLake decision-maker guide preview">
 </iframe>
 
-[:material-download: Download presentation](../assets/devlake-decision-makers-guide.pptx){ .md-button }
+[:material-download: Download PDF](../assets/devlake-decision-makers-guide.pdf){ .md-button }
+
+[:material-presentation: Editable PPTX source](../assets/devlake-decision-makers-guide.pptx){ .md-button .md-button--secondary }
 </div>
 
 !!! info "Preview details"
-    The preview above uses **Microsoft Office Online**. It requires an internet connection and a browser that allows third-party iframes. Supported file types: `.pptx`, `.docx`, `.xlsx`. If the preview does not load, use the download button above to open the file locally.
+    PDF preview renders natively in most modern browsers. If it does not display, use the download button above. The PPTX is retained only as an editable source for future updates.
 
 ---
 
