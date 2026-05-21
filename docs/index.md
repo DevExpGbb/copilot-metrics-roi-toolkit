@@ -13,12 +13,27 @@ hide:
 
 A practical playbook for teams that have already rolled out an AI coding agent and now need a clear story for usage, delivery outcomes, and executive ROI.
 
-!!! info "Copilot-first reference module"
-    Deep worked examples (Usage Metrics API, NDJSON export, Apache DevLake `gh-copilot` plugin, premium-request analytics) target **GitHub Copilot** because it has the most mature public telemetry. Metric definitions, KPIs, ROI framework, and templates are vendor-neutral.
-
 [Start with the measurement journey](measurement-journey.md){ .md-button .md-button--primary }
 [Browse executive templates](exec-templates/index.md){ .md-button }
 
+<div class="text-sm text-gray-600" markdown>
+*Reference setups currently focus on GitHub Copilot as the example agent, but all concepts and frameworks are vendor-neutral.*
+</div>
+
+<div class="logo-band" markdown>
+
+<span class="logo-band__label">Centered on the platforms most teams already use</span>
+
+<span class="logo-chip">
+  <img src="assets/logos/github.svg" alt="" />
+  GitHub
+</span>
+<span class="logo-chip">
+  <img src="assets/logos/microsoft.svg" alt="" />
+  Microsoft
+</span>
+
+</div>
 </div>
 
 ---
