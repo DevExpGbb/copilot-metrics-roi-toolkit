@@ -5,7 +5,7 @@ icon: material/frequently-asked-questions
 
 # FAQ & Glossary
 
-Common questions about GitHub Copilot metrics, followed by a glossary of key terms used throughout this toolkit.
+Common questions about AI coding agent metrics, followed by a glossary of key terms used throughout this toolkit. Many specifics below (Usage Metrics API, premium requests, legacy API sunsets) are GitHub Copilot–scoped because Copilot serves as the toolkit's reference implementation; the metric definitions in the glossary apply to any AI coding agent.
 
 ---
 
@@ -100,7 +100,7 @@ Common questions about GitHub Copilot metrics, followed by a glossary of key ter
 
     See the [Impact & ROI](impact/index.md) page. The key approach:
 
-    1. **Baseline** — capture pre-Copilot metrics
+    1. **Baseline** — capture pre-rollout metrics
     2. **Measure deltas** — compare post-adoption changes
     3. **Translate to business value** — quantify time savings, quality improvements
     4. **Compare vs license cost** — calculate net ROI
@@ -120,9 +120,9 @@ Common questions about GitHub Copilot metrics, followed by a glossary of key ter
 
     Use [copilot-metrics-tools](https://github.com/tgrall/copilot-metrics-tools) to analyze premium request consumption **by user and model**. Monitor the ratio of included vs. billed requests to stay within budget.
 
-??? question "15. Can I correlate Copilot usage with delivery outcomes?"
+??? question "15. Can I correlate AI coding agent usage with delivery outcomes?"
 
-    Yes. One option is **Apache DevLake**, which can ingest Copilot, GitHub, and delivery data into a common model for dashboards and adoption-tier analysis. You can also build the same views in your existing analytics stack.
+    Yes. One option is **Apache DevLake**, which can ingest AI tool usage (the toolkit ships a worked example using the Copilot plugin), source-control, and delivery data into a common model for dashboards and adoption-tier analysis. You can also build the same views in your existing analytics stack.
 
     Common metrics to compare by adoption tier include:
 
@@ -137,13 +137,13 @@ Common questions about GitHub Copilot metrics, followed by a glossary of key ter
 Alphabetical reference of key terms used throughout this toolkit.
 
 Acceptance Rate
-:   Ratio of accepted code suggestions to total suggestions shown. Should not be used as the sole productivity metric — developers derive value from Copilot beyond accepted completions.
+:   Ratio of accepted code suggestions to total suggestions shown. Should not be used as the sole productivity metric — developers derive value from AI coding agents beyond accepted completions.
 
 CFR (Change Failure Rate)
 :   Percentage of deployments causing failures in production. One of the four DORA metrics.
 
 DAU (Daily Active Users)
-:   Unique users interacting with Copilot on a given day.
+:   Unique users interacting with the AI coding agent on a given day.
 
 DevLake
 :   **Apache DevLake** — an open-source dev data platform for normalizing and correlating DevOps metrics from multiple sources (GitHub, Jira, Jenkins, etc.).
@@ -152,13 +152,13 @@ DORA
 :   **DevOps Research and Assessment** — a framework measuring four key metrics: deployment frequency, lead time for changes, change failure rate, and MTTR.
 
 Grafana
-:   Open-source analytics and visualization platform used with DevLake to build dashboards for DORA metrics and Copilot adoption correlation.
+:   Open-source analytics and visualization platform used with DevLake to build dashboards for DORA metrics and AI coding agent adoption correlation.
 
 LoC (Lines of Code)
-:   In this context, lines suggested, added, or deleted by AI. Used in code generation dashboards to quantify Copilot's contribution.
+:   In this context, lines suggested, added, or deleted by AI. Used in code generation dashboards to quantify the AI coding agent's contribution.
 
 MAU (Monthly Active Users)
-:   Unique users interacting with Copilot in a 28-day window.
+:   Unique users interacting with the AI coding agent in a 28-day window.
 
 MTTR (Mean Time to Recovery)
 :   Average time from incident detection to resolution. One of the four DORA metrics.
@@ -167,13 +167,13 @@ NDJSON (Newline-Delimited JSON)
 :   One JSON object per line, used for streaming data. The Usage Metrics API returns data in this format.
 
 PR Cycle Time
-:   Duration from pull request creation to merge. A key delivery velocity indicator that can be correlated with Copilot adoption.
+:   Duration from pull request creation to merge. A key delivery velocity indicator that can be correlated with AI coding agent adoption.
 
 Premium Requests
-:   Copilot interactions that consume premium model quota beyond the included allocation. Tracked per user and per model.
+:   *(GitHub Copilot–specific.)* Copilot interactions that consume premium model quota beyond the included allocation. Tracked per user and per model. Other vendors use different terms (e.g., Cursor "fast/slow" requests, Codeium credits) for similar paid-feature accounting.
 
 SPACE
 :   **Satisfaction, Performance, Activity, Communication, Efficiency** — Microsoft's developer productivity framework. Provides a holistic lens for measuring developer experience beyond raw output.
 
 WAU (Weekly Active Users)
-:   Unique users interacting with Copilot in a 7-day window.
+:   Unique users interacting with the AI coding agent in a 7-day window.

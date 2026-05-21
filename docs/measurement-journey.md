@@ -6,7 +6,7 @@
 
 ## From adoption to impact: a two-phase model
 
-Measuring Copilot works best as a progression. This toolkit uses an opinionated two-phase model so you can baseline usage first, then connect it to delivery outcomes and ROI without skipping the evidence chain.
+Measuring AI coding agent impact works best as a progression. This toolkit uses an opinionated two-phase model so you can baseline usage first, then connect it to delivery outcomes and ROI without skipping the evidence chain.
 
 1. **[Phase 1 — Adoption](adoption/index.md):** Confirm usage, track engagement, identify enablement gaps.
 2. **[Phase 2 — Impact & ROI](impact/index.md):** Correlate usage with delivery outcomes, build an ROI case.
@@ -22,7 +22,7 @@ Measuring Copilot works best as a progression. This toolkit uses an opinionated 
 
 ```mermaid
 flowchart TD
-    Start([Copilot Rollout]) --> P1
+    Start([AI Coding Agent Rollout]) --> P1
 
     subgraph P1 [Phase 1 — Adoption]
         A1[Enable & track] --> A2{Adoption stable?}

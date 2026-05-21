@@ -1,6 +1,6 @@
 # Measurement Plan Template
 
-**Define owners, data readiness, baseline method, and reporting rhythm for Copilot measurement**
+**Define owners, data readiness, baseline method, and reporting rhythm for AI coding agent measurement**
 
 ---
 
@@ -8,14 +8,14 @@
 
 <div class="artifact-preview" markdown>
 <iframe
-  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/copilot-measurement-plan-template.docx"
+  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/ai-coding-measurement-plan-template.docx"
   width="100%"
   height="480"
   frameborder="0"
   title="Measurement Plan Template preview">
 </iframe>
 
-[:material-download: Download DOCX](artifacts/copilot-measurement-plan-template.docx){ .md-button }
+[:material-download: Download DOCX](artifacts/ai-coding-measurement-plan-template.docx){ .md-button }
 </div>
 
 !!! info "Preview details"
@@ -34,8 +34,8 @@
 | Item | Details |
 |------|---------|
 | Organization / population | [NAME / TEAMS IN SCOPE] |
-| Copilot plan and seats | [Business / Enterprise, seat count] |
-| Primary business question | [e.g., Is Copilot improving delivery speed enough to justify renewal?] |
+| AI coding agent and seats | [Vendor + tier, e.g., GitHub Copilot Business/Enterprise, Cursor Business, Cody Enterprise; seat count] |
+| Primary business question | [e.g., Is the AI coding agent improving delivery speed enough to justify renewal?] |
 | Measurement window | [START DATE] - [END DATE] |
 | Executive readout date | [DATE] |
 | Renewal / investment decision date | [DATE] |
@@ -44,7 +44,7 @@
 |------|-------|-----------------|
 | Executive sponsor | [Name] | Success criteria, escalations, investment narrative |
 | Program owner | [Name] | Plan quality, milestones, stakeholder alignment |
-| Copilot admin | [Name] | Policies, dashboard access, seat and usage exports |
+| AI tool admin (e.g., Copilot, Cursor, Cody) | [Name] | Policies, dashboard access, seat and usage exports |
 | DevEx / platform lead | [Name] | Engineering context, enablement actions, workflow metrics |
 | Analytics / BI owner | [Name] | Data pipeline, metric definitions, dashboard QA |
 | Finance partner | [Name] | Cost inputs, ROI assumptions, renewal support |
@@ -54,12 +54,12 @@
 ## 2. Readiness Checklist
 
 - [ ] Executive sponsor agrees on the top 1-3 questions the program must answer.
-- [ ] Copilot usage metrics policy is enabled and dashboard access is confirmed.
+- [ ] Vendor usage metrics policy is enabled (e.g., GitHub Copilot's enterprise usage-metrics policy) and dashboard access is confirmed.
 - [ ] API credentials or exports are available for repeatable data collection.
 - [ ] PR, deployment, review-turnaround, survey, and cost sources are identified.
 - [ ] Baseline period, reporting audiences, and first readout date are documented.
 - [ ] Low-adoption teams have an enablement follow-up path.
-- [ ] Data freshness expectations are understood; Copilot usage data can lag by about 3 full UTC days.
+- [ ] Data freshness expectations are understood; vendor usage data may lag (the GitHub Copilot Usage Metrics API, for example, typically lags by about 3 full UTC days).
 
 !!! tip "If a box is not checked"
     Record the blocker in this plan before building reports. Do not assume another team will fill the gap later.
@@ -70,8 +70,8 @@
 
 | Question | KPI or signal | Source | Owner | Decision use |
 |----------|---------------|--------|-------|--------------|
-| Are seats being used? | Seat utilization, MAU, DAU/MAU | Usage dashboard / API | [Name] | Renewal risk, enablement focus |
-| Is adoption deepening? | Acceptance rate, chat engagement, agent/edit mode adoption | Usage + Code Generation dashboards | [Name] | Adoption maturity and training needs |
+| Are seats being used? | Seat utilization, MAU, DAU/MAU | Vendor usage dashboard / API (e.g., GitHub Copilot Usage Metrics API) | [Name] | Renewal risk, enablement focus |
+| Is adoption deepening? | Acceptance rate, chat engagement, agent/edit mode adoption | Vendor usage + code generation dashboards (e.g., GitHub Copilot) | [Name] | Adoption maturity and training needs |
 | Are outcomes improving? | PR cycle time, deployment frequency, review turnaround | Git analytics + CI/CD | [Name] | Delivery impact evidence |
 | Are developers seeing value? | Satisfaction score, qualitative themes | Survey / interviews | [Name] | Friction and enablement priorities |
 | Is ROI defensible? | Value created, license cost, confidence level | Calculated + finance inputs | [Name] | Renewal or expansion recommendation |

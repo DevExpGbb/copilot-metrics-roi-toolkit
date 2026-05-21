@@ -1,6 +1,9 @@
-# Quick Start Playbook
+# Quick Start Playbook — GitHub Copilot
 
 **From zero to adoption visibility in 30 minutes**
+
+!!! info "Copilot reference implementation"
+    This playbook walks through GitHub Copilot's native usage and code generation dashboards. If you use a different AI coding agent (Cursor, Cody, Amazon Q Developer, etc.), follow the same six steps against your vendor's admin console — most expose an equivalent dashboard, export, and policy toggle.
 
 ---
 
@@ -48,7 +51,7 @@
 | Dimension | Why It Matters |
 |-----------|----------------|
 | **User vs. Agent split** | How much code comes from Agents vs. interactive suggestions |
-| **Language breakdown** | Which languages see the most Copilot-assisted development |
+| **Language breakdown** | Which languages see the most AI-assisted development |
 | **Model breakdown** | Which models are used and their relative contribution |
 
 ---

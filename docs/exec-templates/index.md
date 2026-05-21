@@ -48,10 +48,10 @@ Reusable artifacts for executive readouts, ROI conversations, and measurement pl
 
 | Template | Use Case | Audience | Download |
 |----------|----------|----------|----------|
-| [KPI Table](kpi-table.md) | Executive dashboard view of key Copilot metrics | CTO, VP Eng, Board | [DOCX](artifacts/copilot-kpi-table-template.docx) |
-| [ROI One-Pager](roi-one-pager.md) | Structured ROI narrative for investment justification | CFO, Procurement, VP Eng | [DOCX](artifacts/copilot-roi-one-pager-template.docx) |
-| [QBR Outline](qbr-outline.md) | Quarterly Business Review slide structure | Leadership, Stakeholders | [PPTX](artifacts/copilot-qbr-outline-template.pptx) |
-| [Measurement Plan](measurement-plan.md) | Structured plan for what to measure, how, and when | DevEx, Platform, Admins | [DOCX](artifacts/copilot-measurement-plan-template.docx) |
+| [KPI Table](kpi-table.md) | Executive dashboard view of key AI coding agent metrics | CTO, VP Eng, Board | [DOCX](artifacts/ai-coding-kpi-table-template.docx) |
+| [ROI One-Pager](roi-one-pager.md) | Structured ROI narrative for investment justification | CFO, Procurement, VP Eng | [DOCX](artifacts/ai-coding-roi-one-pager-template.docx) |
+| [QBR Outline](qbr-outline.md) | Quarterly Business Review slide structure | Leadership, Stakeholders | [PPTX](artifacts/ai-coding-qbr-outline-template.pptx) |
+| [Measurement Plan](measurement-plan.md) | Structured plan for what to measure, how, and when | DevEx, Platform, Admins | [DOCX](artifacts/ai-coding-measurement-plan-template.docx) |
 
 !!! tip "How to Use"
     Each template has one canonical downloadable artifact (`.docx` or `.pptx`) plus a markdown source page. Update the markdown source first, then refresh the downloadable file.

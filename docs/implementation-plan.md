@@ -65,7 +65,7 @@ Monitor the [GitHub Changelog](https://github.blog/changelog/) for metrics API c
 ### Legacy API retirement
 
 !!! warning "Action item: Post-April 2026"
-    After the **April 2, 2026** sunset of the legacy Copilot Metrics API, remove all legacy API references from the documentation and update migration guidance to reflect the completed transition.
+    After the **April 2, 2026** sunset of the legacy GitHub Copilot Metrics API, remove all legacy API references from the documentation and update migration guidance to reflect the completed transition. (Copilot-specific roadmap item.)
 
 ### Quarterly review
 
@@ -113,4 +113,4 @@ graph LR
 - **Share with your team** — Distribute the site URL to field sellers, solution architects, and engineering leads
 - **Collect feedback** — Open GitHub Issues for suggestions, corrections, and new content requests
 - **Schedule the first quarterly review** — Put a recurring calendar event to review and update content
-- **Contribute** — Add new tools, update playbooks, and refine ROI models as the Copilot platform evolves
+- **Contribute** — Add new tools, update playbooks, and refine ROI models as AI coding agent platforms evolve

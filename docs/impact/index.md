@@ -4,9 +4,9 @@
 
 <span class="eyebrow">Chapter 2</span>
 
-**Is Copilot improving delivery outcomes? Can you defend the investment?**
+**Is your AI coding agent improving delivery outcomes? Can you defend the investment?**
 
-Phase 2 bridges the gap between adoption data and business impact. Usage metrics tell you Copilot is being *used* — they do not tell you where developer friction is falling, whether delivery is improving, or how those changes connect to business value.
+Phase 2 bridges the gap between adoption data and business impact. Usage metrics tell you the AI tool is being *used* — they do not tell you where developer friction is falling, whether delivery is improving, or how those changes connect to business value.
 
 ---
 
@@ -42,7 +42,7 @@ Good Developer Experience measurement looks for points of friction, tracks wheth
 
     ---
 
-    Follow a concrete path for correlating Copilot usage with engineering delivery metrics.
+    Follow a concrete path for correlating AI coding agent usage with engineering delivery metrics.
 
 -   :material-tools:{ .lg .middle } **[Tools & Resources](tools.md)**
 
@@ -60,7 +60,7 @@ Good Developer Experience measurement looks for points of friction, tracks wheth
 |---|---|
 | Need to understand what to measure across Developer Experience, delivery, and value | [Metrics Guide](metrics.md) — friction signals, surveys, DORA, and value framing |
 | Need to build an ROI case for leadership | [ROI Framework](roi-framework.md) — 5-step formula, evidence stack, exec narrative |
-| Want a prebuilt path for DORA + Copilot correlation | [Using Apache DevLake](apache-devlake.md) — one implementation path, 1-3 days |
+| Want a prebuilt path for DORA + AI coding tool correlation | [Using Apache DevLake](apache-devlake.md) — one implementation path, 1-3 days |
 | Looking for tools to measure impact | [Tools & Resources](tools.md) — Phase 2 tool catalog |
 
 ---
@@ -80,7 +80,7 @@ Good Developer Experience measurement looks for points of friction, tracks wheth
 → Full definitions: [Metrics Guide](metrics.md)
 
 !!! info "Do not skip developer surveys"
-    Delivery telemetry shows **what** changed. Developer surveys show **where friction still exists** and whether Copilot is improving confidence, flow, and perceived value.
+    Delivery telemetry shows **what** changed. Developer surveys show **where friction still exists** and whether the AI coding agent is improving confidence, flow, and perceived value.
 
     Example Microsoft Forms survey starters (may require Microsoft 365 access):
 

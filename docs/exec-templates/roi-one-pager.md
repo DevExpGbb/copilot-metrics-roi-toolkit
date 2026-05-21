@@ -8,14 +8,14 @@
 
 <div class="artifact-preview" markdown>
 <iframe
-  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/copilot-roi-one-pager-template.docx"
+  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/ai-coding-roi-one-pager-template.docx"
   width="100%"
   height="480"
   frameborder="0"
   title="ROI One-Pager Template preview">
 </iframe>
 
-[:material-download: Download DOCX](artifacts/copilot-roi-one-pager-template.docx){ .md-button }
+[:material-download: Download DOCX](artifacts/ai-coding-roi-one-pager-template.docx){ .md-button }
 </div>
 
 !!! info "Preview details"
@@ -30,13 +30,13 @@
 5. **Keep it to one page** when you export or present it. Put backup calculations in an appendix, spreadsheet, or supporting slide.
 
 !!! tip "Make the story defensible"
-    Anchor each claim to a named source such as GitHub Copilot usage data, PR analytics, incident data, or a developer survey. If a value driver is partly estimate-driven, say so directly and downgrade the confidence level instead of implying precision.
+    Anchor each claim to a named source such as AI tool usage data (e.g., GitHub Copilot Usage Metrics API), PR analytics, incident data, or a developer survey. If a value driver is partly estimate-driven, say so directly and downgrade the confidence level instead of implying precision.
 
 ---
 
 ## 1. Executive Summary
 
-> [ORGANIZATION NAME] invested in GitHub Copilot [PLAN TYPE, e.g., Enterprise] for [NUMBER, e.g., 250] developers beginning [START DATE]. Over a [DURATION, e.g., 6]-month measurement period, we observed [KEY FINDING #1, e.g., 24% lower PR cycle time] and [KEY FINDING #2, e.g., 2.1 hours saved per developer per week]. Using a [CONFIDENCE LEVEL, e.g., moderate-confidence] estimate based on [METHOD, e.g., telemetry + survey + finance-reviewed labor rate], the program is tracking to [ROI OUTCOME, e.g., 180%-260% annual ROI].
+> [ORGANIZATION NAME] invested in [AI CODING AGENT, e.g., GitHub Copilot Enterprise / Cursor Business / Sourcegraph Cody Enterprise] for [NUMBER, e.g., 250] developers beginning [START DATE]. Over a [DURATION, e.g., 6]-month measurement period, we observed [KEY FINDING #1, e.g., 24% lower PR cycle time] and [KEY FINDING #2, e.g., 2.1 hours saved per developer per week]. Using a [CONFIDENCE LEVEL, e.g., moderate-confidence] estimate based on [METHOD, e.g., telemetry + survey + finance-reviewed labor rate], the program is tracking to [ROI OUTCOME, e.g., 180%-260% annual ROI].
 
 **Decision framing:** [Continue / Expand / Optimize] because [one sentence tying the investment decision to the strongest evidence].
 
@@ -46,7 +46,7 @@
 
 | Item | Details |
 |------|---------|
-| License type | Copilot [Business / Enterprise] |
+| License type | [AI tool license tier, e.g., GitHub Copilot Business/Enterprise, Cursor Business, Cody Enterprise] |
 | Contract scope | [NUMBER, e.g., 250] seats covering [engineering / product / platform teams] |
 | License cost assumption | [e.g., $39 per user per month x 12 months] |
 | **Annual license cost** | **$[AMOUNT, e.g., 117,000]** |
@@ -124,7 +124,7 @@
 
 | Item | Details |
 |------|---------|
-| Data sources | [e.g., GitHub Copilot telemetry, PR analytics, CI/CD logs, incident tracker, developer survey] |
+| Data sources | [e.g., AI tool telemetry (GitHub Copilot Usage Metrics API or vendor equivalent), PR analytics, CI/CD logs, incident tracker, developer survey] |
 | Measurement period | [START] — [END] |
 | Attribution model | [e.g., pre/post comparison, low-vs-high adoption cohort, or survey-supported estimate] |
 | Confidence level | [High / Medium / Low, with one sentence explaining why] |

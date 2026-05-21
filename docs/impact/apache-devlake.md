@@ -1,13 +1,16 @@
-# Using Apache DevLake for DORA + Copilot Correlation
+# Using Apache DevLake for DORA + AI Tool Correlation
 
 **One implementation path for proving engineering impact**
 
 ---
 
-This playbook shows one implementation path: deploy **Apache DevLake** with the `gh-devlake` CLI, then use Apache DevLake to ingest Copilot, GitHub, and delivery data into a common model for dashboarding and analysis.
+This playbook shows one implementation path: deploy **Apache DevLake** with the `gh-devlake` CLI, then use Apache DevLake to ingest AI tool usage, GitHub, and delivery data into a common model for dashboarding and analysis.
+
+!!! info "GitHub Copilot reference implementation"
+    The worked example below uses **Apache DevLake's `gh-copilot` plugin**, which today provides the most mature path to ingesting AI coding agent telemetry alongside DORA data. The same DevLake-based approach generalizes to other AI coding agents — substitute the corresponding DevLake plugin (or push vendor-exported usage data into a custom DevLake source) and reuse the rest of this playbook unchanged.
 
 !!! note "One option, not a requirement"
-    You do **not** need Apache DevLake to correlate Copilot adoption with delivery outcomes. Use this playbook when you want a prebuilt open-source stack for ingestion, normalization, and dashboards. If you already have another engineering analytics platform, reuse the same baseline, segmentation, and ROI steps with your existing data stack.
+    You do **not** need Apache DevLake to correlate AI coding agent adoption with delivery outcomes. Use this playbook when you want a prebuilt open-source stack for ingestion, normalization, and dashboards. If you already have another engineering analytics platform, reuse the same baseline, segmentation, and ROI steps with your existing data stack.
 
 ### Decision-maker deck
 
@@ -150,7 +153,7 @@ Apache DevLake ships Grafana dashboards once the data is synced.
 | **PR Cycle Time by Tier** | Do high-adoption teams merge faster? |
 | **Deployment Frequency** | Are high-adoption teams deploying more? |
 | **Change Failure Rate** | Is quality maintained as velocity rises? |
-| **Code Review Duration** | Are reviews faster with Copilot-assisted code? |
+| **Code Review Duration** | Are reviews faster with AI-assisted code? |
 
 ---
 
@@ -158,8 +161,8 @@ Apache DevLake ships Grafana dashboards once the data is synced.
 
 | Scenario | Baseline Approach |
 |----------|-------------------|
-| **Pre-Copilot data available** | Use 4–8 weeks before Copilot enablement |
-| **Copilot already deployed** | Use low-adoption teams/repos as control group |
+| **Pre-rollout data available** | Use 4–8 weeks before AI tool enablement |
+| **AI tool already deployed** | Use low-adoption teams/repos as control group |
 | **No historical data** | Set current metrics as baseline; measure over next 8 weeks |
 
 **Metrics to baseline:** median PR cycle time, deployment frequency, change failure rate, code review turnaround.
@@ -192,14 +195,14 @@ Track deploys/week per tier. Look for a positive trend as adoption increases. Fl
 
 ### Code Review Duration
 
-Compare median time from PR open → first review for high- vs. low-adoption teams. Hypothesis: Copilot-assisted code follows conventions more consistently, speeding reviews.
+Compare median time from PR open → first review for high- vs. low-adoption teams. Hypothesis: AI-assisted code follows conventions more consistently, speeding reviews.
 
 ---
 
 ## Step 9: Build the ROI Narrative
 
 ```
-ROI = (Time Saved × Blended Developer Rate) - Copilot License Cost
+ROI = (Time Saved × Blended Developer Rate) - AI Coding Agent License/Seat Cost
 ```
 
 1. **Quantify time saved** — e.g., 20% PR cycle time reduction × 500 PRs/month × 2 hrs = 200 hrs saved/month
@@ -215,13 +218,13 @@ ROI = (Time Saved × Blended Developer Rate) - Copilot License Cost
 
 ---
 
-**Result:** A working Apache DevLake environment for correlating Copilot usage with DORA metrics, plus baseline measurements, correlation analysis, and an executive-ready ROI narrative.
+**Result:** A working Apache DevLake environment for correlating AI coding agent usage with DORA metrics, plus baseline measurements, correlation analysis, and an executive-ready ROI narrative.
 
 ---
 
 ## What to Do Next
 
 - :material-server: Deploy Apache DevLake and start your **initial data sync** today
-- :material-chart-scatter-plot: Identify your **baseline period** and document pre-Copilot metrics
+- :material-chart-scatter-plot: Identify your **baseline period** and document pre-rollout metrics
 - :material-account-multiple-check: Share the **Impact Dashboard** with your VP of Engineering within 2 weeks
 - :material-presentation: Build your **ROI one-pager** using the [template](../exec-templates/roi-one-pager.md)

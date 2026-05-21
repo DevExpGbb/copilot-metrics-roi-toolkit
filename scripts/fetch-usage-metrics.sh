@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 # fetch-usage-metrics.sh
-# Fetches GitHub Copilot usage metrics via the REST API
+# Fetches GitHub Copilot usage metrics via the REST API.
+#
+# Scope: This helper is GitHub Copilot–specific. It is the canonical reference
+# fetcher for the AI Coding Agent ROI Toolkit. To fetch usage data from other
+# AI coding agents, write an analogous script targeting that vendor's API.
+#
 # Usage: ./fetch-usage-metrics.sh --enterprise <slug> [--day YYYY-MM-DD] [--output-dir ./data]
 #
 # Prerequisites:

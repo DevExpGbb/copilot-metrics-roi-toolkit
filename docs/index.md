@@ -5,13 +5,16 @@ hide:
 
 <div class="hero" markdown>
 
-<span class="eyebrow">Docs-first Copilot measurement guide</span>
+<span class="eyebrow">Docs-first AI coding agent measurement guide</span>
 
-# GitHub Copilot Metrics & ROI Toolkit
+# AI Coding Agent ROI Toolkit
 
 **Measure adoption. Prove impact. Defend ROI.**
 
-A practical playbook for teams that have already rolled out GitHub Copilot and now need a clear story for usage, delivery outcomes, and executive ROI.
+A practical playbook for teams that have already rolled out an AI coding agent and now need a clear story for usage, delivery outcomes, and executive ROI.
+
+!!! info "Copilot-first reference module"
+    Deep worked examples (Usage Metrics API, NDJSON export, Apache DevLake `gh-copilot` plugin, premium-request analytics) target **GitHub Copilot** because it has the most mature public telemetry. Metric definitions, KPIs, ROI framework, and templates are vendor-neutral.
 
 [Start with the measurement journey](measurement-journey.md){ .md-button .md-button--primary }
 [Browse executive templates](exec-templates/index.md){ .md-button }
@@ -33,7 +36,7 @@ A practical playbook for teams that have already rolled out GitHub Copilot and n
   </li>
   <li markdown>
     :material-chart-scatter-plot:{ .lg .middle } **[Impact & ROI](impact/index.md)**
-    <span class="chapter-list__desc">Connect Copilot usage to delivery outcomes, developer sentiment, and a defensible executive narrative.</span>
+    <span class="chapter-list__desc">Connect AI coding agent usage to delivery outcomes, developer sentiment, and a defensible executive narrative.</span>
   </li>
   <li markdown>
     :material-file-document:{ .lg .middle } **[Templates](exec-templates/index.md)**
@@ -54,7 +57,7 @@ A practical playbook for teams that have already rolled out GitHub Copilot and n
 | **Engineering Leader** (CTO, VP Eng) | [Impact & ROI](impact/index.md) for the narrative, then [QBR Outline](exec-templates/qbr-outline.md) for the readout |
 | **DevEx / Platform Team** | [Measurement Journey](measurement-journey.md) for the model, then [Adoption](adoption/index.md) to operationalize it |
 | **FinOps / Procurement** | [ROI One-Pager](exec-templates/roi-one-pager.md) for the cost story, then [Impact Tools](impact/tools.md) for implementation options |
-| **Copilot Admin** | [Adoption Metrics](adoption/metrics.md) for what to track, then [Dashboards & Data Sources](dashboards-data-sources.md) for the data surface |
+| **AI Tool Admin** (e.g., Copilot, Cursor, Cody) | [Adoption Metrics](adoption/metrics.md) for what to track, then [Dashboards & Data Sources](dashboards-data-sources.md) for the data surface |
 
 ---
 
