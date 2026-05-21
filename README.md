@@ -21,7 +21,7 @@ This toolkit provides a structured approach to **measuring** the impact of AI co
 | **Engineering Leaders** (CTO, VP Eng) | ROI frameworks, executive templates, delivery outcome analysis |
 | **DevEx / Platform Teams** | Dashboards, APIs, data pipelines, measurement playbooks |
 | **FinOps / Procurement** | Cost analysis, license utilization, ROI one-pagers |
-| **AI Tool Admins** (e.g., Copilot, Cursor, Cody admins) | Usage metrics, scope/limitations, API reference |
+| **AI Tool Admins** (e.g., GitHub Copilot, Codex, Claude Code) | Usage metrics, scope/limitations, API reference |
 | **Champions & Analysts** | Tool catalog, BI integrations, dashboard recipes |
 
 ## Quick Start
