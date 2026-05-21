@@ -13,7 +13,7 @@ This playbook shows one implementation path: deploy **Apache DevLake** with the 
 
 <div class="artifact-preview" markdown>
 <iframe
-  src="../assets/devlake-decision-makers-guide.pdf"
+  src="../../assets/devlake-decision-makers-guide.pdf"
   width="100%"
   height="600"
   frameborder="0"
@@ -21,12 +21,10 @@ This playbook shows one implementation path: deploy **Apache DevLake** with the 
 </iframe>
 
 [:material-download: Download decision-maker guide](../assets/devlake-decision-makers-guide.pdf){ .md-button }
-
-[:material-presentation: Editable PPTX source](../assets/devlake-decision-makers-guide.pptx){ .md-button .md-button--secondary }
 </div>
 
 !!! info "Preview details"
-    PDF preview renders natively in most modern browsers. If it does not display, use the download button above. The PPTX is retained only as an editable source for future updates.
+    PDF preview renders natively in most modern browsers. If it does not display, use the download button above.
 
 ---
 
