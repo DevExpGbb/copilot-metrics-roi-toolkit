@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Toolkit logo">
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="#F9FAFB"/>
+  <rect x="18" y="30" width="7" height="16" rx="3.5" fill="#111827"/>
+  <rect x="29" y="22" width="7" height="24" rx="3.5" fill="#111827"/>
+  <rect x="40" y="16" width="7" height="30" rx="3.5" fill="#107C10"/>
+</svg>

@@ -1,80 +1,17 @@
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #107C10;
-  --md-primary-fg-color--light: #4CAF50;
-  --md-primary-fg-color--dark: #0B5C0B;
-  --md-accent-fg-color: #7FBA00;
+  --md-primary-fg-color: #111827;
+  --md-primary-fg-color--light: #1f2937;
+  --md-primary-fg-color--dark: #030712;
+  --md-accent-fg-color: #107c10;
+  --md-typeset-a-color: #107c10;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #4CAF50;
-  --md-primary-fg-color--light: #7FBA00;
-  --md-primary-fg-color--dark: #2E7D32;
-  --md-accent-fg-color: #B4D33A;
-}
-
-/* Announcement bar (custom override) */
-.md-banner {
-  background: linear-gradient(90deg,
-    color-mix(in srgb, var(--md-primary-fg-color--dark) 92%, black 8%),
-    var(--md-primary-fg-color));
-  color: #ffffff;
-}
-
-.announce-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 1rem;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.1rem 0;
-  font-size: 0.78rem;
-}
-
-.announce-bar__credit {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.announce-bar__chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.2rem 0.55rem;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.14);
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.announce-bar__chip img {
-  width: 0.72rem;
-  height: 0.72rem;
-  display: block;
-  filter: invert(1) brightness(1.2);
-}
-
-.announce-bar__label {
-  opacity: 0.92;
-}
-
-.announce-bar__cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.25rem 0.7rem;
-  border: 1px solid rgba(255, 255, 255, 0.55);
-  border-radius: 999px;
-  color: #ffffff;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.announce-bar__cta:hover,
-.announce-bar__cta:focus {
-  background: rgba(255, 255, 255, 0.18);
-  color: #ffffff;
+  --md-primary-fg-color: #111827;
+  --md-primary-fg-color--light: #1f2937;
+  --md-primary-fg-color--dark: #030712;
+  --md-accent-fg-color: #4caf50;
+  --md-typeset-a-color: #4caf50;
 }
 
 .hero,
