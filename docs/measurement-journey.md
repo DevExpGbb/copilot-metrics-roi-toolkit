@@ -18,38 +18,6 @@ Measuring AI coding agent impact works best as a progression. This toolkit uses 
 
 ---
 
-## The site at a glance
-
-<div class="grid cards chapter-grid" markdown>
-
--   :material-rocket-launch:{ .lg .middle } **[Adoption](adoption/index.md)**
-
-    ---
-
-    Metrics, readiness signals, dashboard paths, and tooling for proving people are actually using Copilot.
-
--   :material-chart-scatter-plot:{ .lg .middle } **[Impact & ROI](impact/index.md)**
-
-    ---
-
-    Delivery metrics, ROI framing, and correlation guidance for the business case.
-
--   :material-file-document:{ .lg .middle } **[Templates](exec-templates/index.md)**
-
-    ---
-
-    Reusable artifacts for KPI reviews, ROI one-pagers, QBRs, and measurement plans.
-
--   :material-book-open:{ .lg .middle } **[Reference](reference/index.md)**
-
-    ---
-
-    Supporting dashboards, tool comparisons, glossary terms, and source references.
-
-</div>
-
----
-
 ## Journey Diagram
 
 ```mermaid
@@ -74,17 +42,17 @@ flowchart TD
 
 ---
 
-## Three Maturity Paths
+## How-to's on setting up metrics
 
-| Path | Tools | Effort | Best For |
-|------|-------|:------:|---------|
-| 🟢 **Quick Start** | Native dashboards | Low | First visibility into adoption |
-| 🟡 **Analytics-Ready** | APIs, NDJSON, Power BI | Medium | Custom reporting and BI |
-| 🔴 **Using Apache DevLake** | Apache DevLake (optional) or your existing data stack | High | Prebuilt path to proving engineering impact |
+| How-to | Tools | Effort | Best For |
+|--------|-------|:------:|---------|
+| 🟢 **[Adoption: Quick Start](adoption/quick-start.md)** | Native dashboards | Low | First visibility into adoption |
+| 🟡 **[Adoption: Deeper Analytics](adoption/analytics-ready.md)** | APIs, NDJSON, Power BI | Medium | Custom reporting and BI |
+| 🔴 **[Impact: Using Apache DevLake for ROI](impact/apache-devlake.md)** | Apache DevLake (optional) or your existing data stack | High | Prebuilt path to proving engineering impact |
 
 ---
 
-## Leading vs Lagging Indicators
+## Your Go-to Metrics
 
 | Type | Metric | Phase |
 |:----:|--------|:-----:|
@@ -93,6 +61,7 @@ flowchart TD
 | Leading | Agent adoption % | 1 |
 | Lagging | PR cycle time delta | 2 |
 | Lagging | Deployment frequency delta | 2 |
+| Lagging | Time savings (hours/dev/week) | 2 |
 | Lagging | ROI ratio | 2 |
 
 !!! tip
