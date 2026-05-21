@@ -49,8 +49,8 @@
 }
 
 .announce-bar__chip img {
-  width: 0.95rem;
-  height: 0.95rem;
+  width: 0.72rem;
+  height: 0.72rem;
   display: block;
   filter: invert(1) brightness(1.2);
 }
