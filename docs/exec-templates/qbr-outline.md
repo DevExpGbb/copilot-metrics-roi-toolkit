@@ -8,14 +8,14 @@
 
 <div class="artifact-preview" markdown>
 <iframe
-  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/copilot-qbr-outline-template.pptx"
+  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/ai-coding-qbr-outline-template.pptx"
   width="100%"
   height="480"
   frameborder="0"
   title="QBR Outline Template preview">
 </iframe>
 
-[:material-download: Download PPTX](artifacts/copilot-qbr-outline-template.pptx){ .md-button }
+[:material-download: Download PPTX](artifacts/ai-coding-qbr-outline-template.pptx){ .md-button }
 </div>
 
 !!! info "Preview details"
@@ -54,7 +54,7 @@
 
 | Element | Fill-in guidance | Example |
 |---------|------------------|---------|
-| Review title | Use quarter + program name | **GitHub Copilot QBR - Q3 FY26** |
+| Review title | Use quarter + program name | **AI Coding Agent QBR - Q3 FY26** |
 | Scope line | Name the covered population | `420 licensed developers across product engineering` |
 | Executive subtitle | State the business theme, not the tooling theme | `From broad adoption to measurable delivery impact` |
 | Presenter line | Include accountable owner and review date | `Prepared by DevEx and Platform Engineering - 15 Oct 2026` |
@@ -86,7 +86,7 @@
 
 ## Slide 2: Adoption Snapshot
 
-**Purpose:** Show whether Copilot usage is broad enough to justify continued investment.
+**Purpose:** Show whether AI coding agent usage is broad enough to justify continued investment.
 
 | KPI | What to show | Why it matters |
 |-----|--------------|----------------|
@@ -108,7 +108,7 @@
 
 ## Slide 3: Engagement Quality
 
-**Purpose:** Show how people are using Copilot, not just whether they opened it.
+**Purpose:** Show how people are using the AI coding agent, not just whether they opened it.
 
 | Lens | Fill-in guidance | Example insight |
 |------|------------------|-----------------|
@@ -230,8 +230,8 @@
 
 | Data point | Source | Collection method | Limitation to disclose |
 |-----------|--------|-------------------|------------------------|
-| Utilization, MAU | GitHub dashboard or API | Automated export | Rolling-window definitions can shift week to week |
-| Acceptance, chat engagement | GitHub dashboard or API | Automated export | Often aggregate, not user-level |
+| Utilization, MAU | Vendor usage dashboard or API (e.g., GitHub Copilot) | Automated export | Rolling-window definitions can shift week to week |
+| Acceptance, chat engagement | Vendor usage dashboard or API (e.g., GitHub Copilot) | Automated export | Often aggregate, not user-level |
 | Code generation and edit usage | Code generation dashboard or API | Automated export | Language and feature detail can vary by plan |
 | Delivery outcomes | DevLake, git analytics, CI/CD tooling | Cohort comparison or trend analysis | Multiple process changes may affect attribution |
 | Developer sentiment | Internal pulse survey | Survey or interview synthesis | Self-reported and response-rate sensitive |
@@ -253,6 +253,6 @@
 
 ## What to do next
 
-- :material-file-powerpoint: Download the [PPTX template](artifacts/copilot-qbr-outline-template.pptx) and customize it for your next review.
+- :material-file-powerpoint: Download the [PPTX template](artifacts/ai-coding-qbr-outline-template.pptx) and customize it for your next review.
 - :material-finance: Pair this outline with the [ROI One-Pager](roi-one-pager.md) when leadership wants calculation detail.
 - :material-table: Use the [KPI Table](kpi-table.md) as the appendix or data backup for this deck.

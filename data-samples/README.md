@@ -1,6 +1,6 @@
 # Data Samples
 
-Example NDJSON schemas and sample data for testing and understanding the Copilot Usage Metrics data format.
+Example NDJSON schemas and sample data for testing and understanding the **GitHub Copilot Usage Metrics API** data format. These samples are the canonical reference shape used throughout the AI Coding Agent ROI Toolkit; other AI coding agents expose comparable but vendor-specific schemas.
 
 ## Files
 

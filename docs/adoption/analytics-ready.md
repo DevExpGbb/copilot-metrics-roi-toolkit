@@ -1,6 +1,9 @@
-# Analytics-Ready Playbook
+# Analytics-Ready Playbook — GitHub Copilot
 
 **Custom dashboards and BI integration in half a day**
+
+!!! info "Copilot reference implementation"
+    This playbook builds a Copilot Usage Metrics API → NDJSON → BI pipeline. The same approach (PAT or service-account auth → scheduled export → BI ingestion) applies to other AI coding agents that expose a usage API; substitute their endpoints, auth scopes, and field names.
 
 ---
 
@@ -198,7 +201,7 @@ Include these four panels in your initial dashboard.
 
 ## When to Level Up
 
-You've outgrown this playbook when leadership asks **"Is Copilot making us ship faster?"** and you need to correlate usage with DORA metrics or build an ROI narrative for budget renewal.
+You've outgrown this playbook when leadership asks **"Is our AI coding agent making us ship faster?"** and you need to correlate usage with DORA metrics or build an ROI narrative for budget renewal.
 
 :material-arrow-right: Move to [Using Apache DevLake](../impact/apache-devlake.md) if you want a prebuilt correlation stack.
 

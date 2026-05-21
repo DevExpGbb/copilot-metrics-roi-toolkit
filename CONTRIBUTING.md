@@ -1,4 +1,4 @@
-# Contributing to the Copilot Metrics & ROI Toolkit
+# Contributing to the AI Coding Agent ROI Toolkit
 
 Thank you for helping improve this toolkit! Here's how to contribute.
 
@@ -18,7 +18,7 @@ Thank you for helping improve this toolkit! Here's how to contribute.
 - **Use admonitions** for warnings, tips, and scope limitations:
   ```markdown
   !!! warning "Scope Limitation"
-      Usage metrics do not include GitHub.com Chat or Mobile activity.
+      GitHub Copilot's usage metrics, for example, do not include GitHub.com Chat or Mobile activity.
   ```
 
 ## Adding a Tool to the Catalog
@@ -52,7 +52,7 @@ See `docs/exec-templates/artifact-maintenance.md` for the full mapping and workf
 
 ## Style
 
-- Use [MkDocs Material](https://squidfundly.github.io/mkdocs-material/) features (admonitions, tabs, mermaid)
+- Use [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) features (admonitions, tabs, mermaid)
 - Keep Mermaid diagrams simple (max 10–12 nodes)
 - No external diagram tools — everything stays in-page
 

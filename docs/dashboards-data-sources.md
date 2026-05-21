@@ -1,4 +1,7 @@
-# Dashboards & Data Sources
+# Dashboards & Data Sources — GitHub Copilot Reference
+
+!!! info "Vendor scope"
+    This page documents the **GitHub Copilot** data sources in depth as the canonical reference implementation, because Copilot currently exposes the most mature first-party telemetry surface (Usage Metrics API, Code Generation Dashboard, premium-request reporting). Most other AI coding agents (Cursor, Sourcegraph Cody, Amazon Q Developer, etc.) expose comparable but vendor-specific APIs and dashboards — apply the same selection criteria (granularity, retention, access control, cost) when adapting this guide to your tool.
 
 GitHub Copilot provides multiple ways to measure adoption, engagement, and impact — from built-in dashboards with visual trends to raw data exports and REST API endpoints. This guide covers every native and API-based data source available for Copilot metrics, so you can choose the right one for your reporting needs.
 
