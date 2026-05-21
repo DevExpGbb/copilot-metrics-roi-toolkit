@@ -1,5 +1,9 @@
 # Phase 2: Impact & ROI
 
+<div class="section-intro" markdown>
+
+<span class="eyebrow">Chapter 2</span>
+
 **Is your AI coding agent improving delivery outcomes? Can you defend the investment?**
 
 Phase 2 bridges the gap between adoption data and business impact. Usage metrics tell you the AI tool is being *used* — they do not tell you where developer friction is falling, whether delivery is improving, or how those changes connect to business value.
@@ -14,9 +18,43 @@ You know your acceptance rate is 35%. But has that changed how fast you ship? Ar
 
 Good Developer Experience measurement looks for points of friction, tracks whether they shrink, and then shows whether those improvements compound into better delivery, stronger developer sentiment, and clearer ROI. Without that chain, you're defending a license investment with activity metrics alone — and that story gets thin fast in a QBR.
 
+</div>
+
 ---
 
-## Where to Start
+## In this chapter
+
+<div class="grid cards chapter-grid" markdown>
+
+-   :material-book-open:{ .lg .middle } **[Metrics Guide](metrics.md)**
+
+    ---
+
+    Define the outcome, delivery, and sentiment signals that make up a credible impact story.
+
+-   :material-calculator:{ .lg .middle } **[ROI Framework](roi-framework.md)**
+
+    ---
+
+    Turn improvements into a defensible ROI narrative for leadership, finance, and procurement.
+
+-   :material-source-branch:{ .lg .middle } **[Using Apache DevLake](apache-devlake.md)**
+
+    ---
+
+    Follow a concrete path for correlating AI coding agent usage with engineering delivery metrics.
+
+-   :material-tools:{ .lg .middle } **[Tools & Resources](tools.md)**
+
+    ---
+
+    Compare the platforms and supporting tools that can power your Phase 2 reporting stack.
+
+</div>
+
+---
+
+## Choose your starting point
 
 | Your situation | Start here |
 |---|---|
@@ -77,3 +115,4 @@ graph LR
 - :material-book-open: [Metrics Guide](metrics.md) to understand what to measure
 - :material-calculator: [ROI Framework](roi-framework.md) to build your executive case
 - :material-connection: [Using Apache DevLake](apache-devlake.md) if you want a prebuilt correlation stack
+- :material-file-document: [Templates](../exec-templates/index.md) when you're ready to package the story

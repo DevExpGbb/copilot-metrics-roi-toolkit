@@ -7,26 +7,28 @@ repo_name: DevExpGBB/copilot-metrics-roi-toolkit
 theme:
   name: material
   features:
+    - navigation.instant
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
+    - navigation.indexes
+    - navigation.path
     - navigation.top
     - navigation.footer
-    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.copy
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -60,15 +62,16 @@ plugins:
   - search
 
 nav:
-  - Home: index.md
-  - Measurement Journey: measurement-journey.md
-  - "Phase 1: Adoption":
+  - Start Here:
+    - Overview: index.md
+    - Measurement Journey: measurement-journey.md
+  - Adoption:
     - Overview: adoption/index.md
-    - Metrics Guide: adoption/metrics.md
     - Quick Start: adoption/quick-start.md
+    - Metrics Guide: adoption/metrics.md
     - Analytics-Ready: adoption/analytics-ready.md
     - Tools & Resources: adoption/tools.md
-  - "Phase 2: Impact & ROI":
+  - Impact & ROI:
     - Overview: impact/index.md
     - Metrics Guide: impact/metrics.md
     - ROI Framework: impact/roi-framework.md
@@ -82,6 +85,7 @@ nav:
     - Measurement Plan: exec-templates/measurement-plan.md
     - Artifact Maintenance Workflow: exec-templates/artifact-maintenance.md
   - Reference:
+    - Overview: reference/index.md
     - Dashboards & Data Sources: dashboards-data-sources.md
     - Tool Catalog: tool-catalog.md
     - FAQ & Glossary: faq-glossary.md

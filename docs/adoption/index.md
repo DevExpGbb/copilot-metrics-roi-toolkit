@@ -1,12 +1,50 @@
 # Phase 1: Adoption
 
+<div class="section-intro" markdown>
+
+<span class="eyebrow">Chapter 1</span>
+
 **Are developers using your AI coding agent? How deeply? Where are the gaps?**
 
 Phase 1 focuses on understanding adoption breadth and depth before attempting to measure business impact. You need stable adoption data before correlating AI tool usage with delivery outcomes.
 
+</div>
+
 ---
 
-## Where to Start
+## In this chapter
+
+<div class="grid cards chapter-grid" markdown>
+
+-   :material-view-dashboard:{ .lg .middle } **[Quick Start](quick-start.md)**
+
+    ---
+
+    Get baseline visibility fast with native dashboards and the lowest setup effort.
+
+-   :material-book-open:{ .lg .middle } **[Metrics Guide](metrics.md)**
+
+    ---
+
+    Learn which adoption metrics matter, how to interpret them, and where their limits are.
+
+-   :material-database:{ .lg .middle } **[Analytics-Ready](analytics-ready.md)**
+
+    ---
+
+    Move from dashboards into NDJSON exports, BI tooling, and historical analysis.
+
+-   :material-tools:{ .lg .middle } **[Tools & Resources](tools.md)**
+
+    ---
+
+    Compare tooling options for visualizing and operationalizing adoption reporting.
+
+</div>
+
+---
+
+## Choose your starting point
 
 | Your situation | Start here |
 |---|---|
@@ -50,3 +88,4 @@ You're ready to add Phase 2 (Impact & ROI) when:
 - :material-rocket-launch: [Quick Start](quick-start.md) if you haven't measured anything yet
 - :material-book-open: [Metrics Guide](metrics.md) to understand what each metric means
 - :material-tools: [Tools & Resources](tools.md) to pick a visualization tool
+- :material-chart-scatter-plot: [Impact & ROI](../impact/index.md) once adoption is stable
