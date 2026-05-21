@@ -1,3 +1,74 @@
+.hero,
+.section-intro {
+  margin: 0 0 1.5rem;
+  padding: 1.25rem 1.25rem 1.4rem 1.5rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 1rem;
+  background-color: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before,
+.section-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0.35rem;
+  background: linear-gradient(180deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+}
+
+.hero > *,
+.section-intro > * {
+  position: relative;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.65rem;
+  color: var(--md-primary-fg-color);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero .md-button {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p:last-child,
+.section-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.chapter-grid ul {
+  gap: 1rem;
+}
+
+.chapter-grid li {
+  border-top: 0.2rem solid var(--md-primary-fg-color);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.chapter-grid li:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--md-shadow-z2);
+}
+
+.chapter-grid li p:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .hero,
+  .section-intro {
+    padding: 1rem 1rem 1.15rem 1.2rem;
+  }
+}
+
 /* Responsive wrapper for inline artifact previews */
 .artifact-preview {
   margin: 1rem 0;

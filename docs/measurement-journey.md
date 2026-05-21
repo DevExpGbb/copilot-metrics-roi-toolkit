@@ -1,14 +1,52 @@
 # Measurement Journey
 
+<div class="section-intro" markdown>
+
+<span class="eyebrow">Start here</span>
+
 ## From adoption to impact: a two-phase model
 
-Measuring Copilot requires a deliberate progression. This toolkit follows an opinionated two-phase model:
+Measuring Copilot works best as a progression. This toolkit uses an opinionated two-phase model so you can baseline usage first, then connect it to delivery outcomes and ROI without skipping the evidence chain.
 
 1. **[Phase 1 — Adoption](adoption/index.md):** Confirm usage, track engagement, identify enablement gaps.
 2. **[Phase 2 — Impact & ROI](impact/index.md):** Correlate usage with delivery outcomes, build an ROI case.
 
 !!! warning "Don't skip Phase 1"
     Jumping to ROI before stable adoption produces misleading results. Baseline usage first.
+
+</div>
+
+---
+
+## The site at a glance
+
+<div class="grid cards chapter-grid" markdown>
+
+-   :material-rocket-launch:{ .lg .middle } **[Adoption](adoption/index.md)**
+
+    ---
+
+    Metrics, readiness signals, dashboard paths, and tooling for proving people are actually using Copilot.
+
+-   :material-chart-scatter-plot:{ .lg .middle } **[Impact & ROI](impact/index.md)**
+
+    ---
+
+    Delivery metrics, ROI framing, and correlation guidance for the business case.
+
+-   :material-file-document:{ .lg .middle } **[Templates](exec-templates/index.md)**
+
+    ---
+
+    Reusable artifacts for KPI reviews, ROI one-pagers, QBRs, and measurement plans.
+
+-   :material-book-open:{ .lg .middle } **[Reference](reference/index.md)**
+
+    ---
+
+    Supporting dashboards, tool comparisons, glossary terms, and source references.
+
+</div>
 
 ---
 
@@ -80,6 +118,6 @@ Move from Phase 1 → Phase 2 when:
 
 **What to do next:**
 
-- :material-rocket-launch: [Start Phase 1](adoption/index.md) if you're early in your journey
-- :material-chart-scatter-plot: [Start Phase 2](impact/index.md) if adoption is stable
-- :material-tools: [Browse the Tool Catalog](tool-catalog.md) to pick your tools
+- :material-rocket-launch: [Start with Adoption](adoption/index.md) if you still need baseline visibility
+- :material-chart-scatter-plot: [Move to Impact & ROI](impact/index.md) once adoption is stable
+- :material-file-document: [Open Templates](exec-templates/index.md) when you need an executive artifact
