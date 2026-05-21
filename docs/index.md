@@ -3,11 +3,14 @@ hide:
   - toc
 ---
 
-# GitHub Copilot Metrics & ROI Toolkit
+# AI Coding Agent ROI Toolkit
 
 **Measure adoption. Prove impact. Defend ROI.**
 
-A measurement guide — not an adoption guide — for teams that have rolled out Copilot and need to quantify results.
+A measurement guide — not an adoption guide — for teams that have rolled out an AI coding agent and need to quantify results.
+
+!!! info "Copilot-first reference module"
+    Deep worked examples (Usage Metrics API, NDJSON export, Apache DevLake `gh-copilot` plugin, premium-request analytics) target **GitHub Copilot** because it has the most mature public telemetry. Metric definitions, KPIs, ROI framework, and templates are vendor-neutral.
 
 ---
 
@@ -18,7 +21,7 @@ A measurement guide — not an adoption guide — for teams that have rolled out
 | **Engineering Leader** (CTO, VP Eng) | [ROI Framework](impact/roi-framework.md) · [QBR Template](exec-templates/qbr-outline.md) |
 | **DevEx / Platform Team** | [Phase 1: Adoption](adoption/index.md) · [Phase 2: Impact](impact/index.md) |
 | **FinOps / Procurement** | [ROI One-Pager](exec-templates/roi-one-pager.md) · [Premium Request Costs](impact/tools.md) |
-| **Copilot Admin** | [Adoption Metrics](adoption/metrics.md) · [Dashboards & APIs](dashboards-data-sources.md) |
+| **AI Tool Admin** (e.g., Copilot, Cursor, Cody) | [Adoption Metrics](adoption/metrics.md) · [Dashboards & APIs](dashboards-data-sources.md) |
 
 ---
 
@@ -37,7 +40,7 @@ graph LR
 
     ---
 
-    Who's using Copilot, where, and how deeply?
+    Who's using AI coding agents, where, and how deeply?
 
 -   :material-chart-scatter-plot:{ .lg .middle } **[Phase 2: Impact & ROI](impact/index.md)**
 

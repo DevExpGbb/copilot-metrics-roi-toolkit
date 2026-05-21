@@ -5,7 +5,7 @@ icon: material/link-variant
 
 # References
 
-Curated list of external and internal sources used to build this toolkit.
+Curated list of external and internal sources used to build this toolkit. Most assets are GitHub Copilot–specific because Copilot serves as the toolkit's reference implementation; the underlying measurement principles generalize to other AI coding agents.
 
 ---
 

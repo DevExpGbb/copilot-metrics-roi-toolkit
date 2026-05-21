@@ -9,7 +9,7 @@ Tools for measuring engineering impact and building ROI narratives.
 | | |
 |---|---|
 | **Setup** | :material-circle-multiple: High — Docker or Azure, multi-tool config |
-| **Best for** | Correlating Copilot adoption with DORA delivery metrics |
+| **Best for** | Correlating AI coding agent adoption with DORA delivery metrics |
 | **Data** | Full history in Apache DevLake's backing database |
 | **Cost** | Free locally (Docker). ~$30-50/mo on Azure |
 
@@ -41,7 +41,7 @@ gh devlake configure full
 | **Data** | Depends on your retained API exports, GitHub data, CI/CD data, incidents, and survey responses |
 | **Cost** | Existing platform and licensing costs |
 
-Use the Copilot Usage Metrics API and dashboard exports as the Copilot input, then combine them with GitHub, CI/CD, incident, and survey data in the analytics stack your organization already trusts.
+Use the **GitHub Copilot Usage Metrics API** and dashboard exports as the AI tool input when measuring Copilot. For other AI coding agents, substitute the equivalent vendor usage export. Combine that with GitHub, CI/CD, incident, and survey data in the analytics stack your organization already trusts.
 
 ---
 

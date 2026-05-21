@@ -1,6 +1,9 @@
 # Tool Catalog
 
-A curated catalog of tools for measuring GitHub Copilot adoption and impact. Each entry covers what it does, when to use it, setup effort, and how to get started.
+A curated catalog of tools for measuring AI coding agent adoption and impact. Each entry covers what it does, when to use it, setup effort, and how to get started.
+
+!!! info "GitHub Copilot reference"
+    Most entries below are scoped to **GitHub Copilot** because it currently has the most mature ecosystem of first-party and third-party measurement tooling. Equivalent tools may exist for other AI coding agents (e.g., Cursor admin analytics, Sourcegraph Cody analytics, Amazon Q Developer dashboards) — use this catalog as a template for evaluating those vendor stacks.
 
 !!! tip "How to read this page"
     Tools are ordered from **zero-setup built-ins** to **full-stack analytics platforms**. Start at the top and move down as your measurement maturity grows.

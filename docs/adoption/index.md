@@ -1,8 +1,8 @@
 # Phase 1: Adoption
 
-**Are developers using Copilot? How deeply? Where are the gaps?**
+**Are developers using your AI coding agent? How deeply? Where are the gaps?**
 
-Phase 1 focuses on understanding adoption breadth and depth before attempting to measure business impact. You need stable adoption data before correlating Copilot usage with delivery outcomes.
+Phase 1 focuses on understanding adoption breadth and depth before attempting to measure business impact. You need stable adoption data before correlating AI tool usage with delivery outcomes.
 
 ---
 
@@ -10,7 +10,7 @@ Phase 1 focuses on understanding adoption breadth and depth before attempting to
 
 | Your situation | Start here |
 |---|---|
-| Just enabled Copilot, need basic visibility | [Quick Start](quick-start.md) — native dashboards, 30 min |
+| Just enabled an AI coding agent, need basic visibility | [Quick Start](quick-start.md) — native dashboards, 30 min |
 | Need custom reports, BI integration, or historical data | [Analytics-Ready](analytics-ready.md) — NDJSON + BI, half day |
 | Want to understand what metrics exist and what they mean | [Metrics Guide](metrics.md) — definitions, scope, limitations |
 | Looking for tools to visualize adoption data | [Tools & Resources](tools.md) — Phase 1 tool catalog |
@@ -21,7 +21,7 @@ Phase 1 focuses on understanding adoption breadth and depth before attempting to
 
 | Metric | What It Tells You | Target Signal |
 |---|---|---|
-| **DAU/WAU/MAU** | How many developers use Copilot | Steady growth |
+| **DAU/WAU/MAU** | How many developers use the AI coding agent | Steady growth |
 | **Acceptance Rate** | Are suggestions relevant and trusted | Stable 25-35%+ |
 | **Feature Mix** | Depth beyond completions (chat, agent) | Broadening |
 | **Seat Utilization** | Are paid seats being used | >70% active |

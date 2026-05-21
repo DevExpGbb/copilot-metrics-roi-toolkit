@@ -8,14 +8,14 @@
 
 <div class="artifact-preview" markdown>
 <iframe
-  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/copilot-measurement-plan-template.docx"
+  src="https://view.officeapps.live.com/op/embed.aspx?src=https://devexpgbb.github.io/copilot-metrics-roi-toolkit/exec-templates/artifacts/ai-coding-measurement-plan-template.docx"
   width="100%"
   height="480"
   frameborder="0"
   title="Measurement Plan Template preview">
 </iframe>
 
-[:material-download: Download DOCX](artifacts/copilot-measurement-plan-template.docx){ .md-button }
+[:material-download: Download DOCX](artifacts/ai-coding-measurement-plan-template.docx){ .md-button }
 </div>
 
 !!! info "Preview details"
@@ -46,7 +46,7 @@
 
 ## 2. Goals
 
-*What does success look like for your Copilot program?*
+*What does success look like for your AI coding agent program?*
 
 - [ ] Achieve >[X]% seat utilization within [Y] months of rollout
 - [ ] Demonstrate measurable improvement in at least one DORA metric
@@ -65,11 +65,11 @@
 
 | Metric | Definition | Data Source | Owner | Target | Cadence |
 |--------|-----------|-------------|-------|--------|---------|
-| Seat Utilization | Active users ÷ assigned seats (28d) | GitHub Usage Dashboard | [Name] | >[X]% | Weekly |
-| Monthly Active Users | Unique users with activity in 28d | GitHub API | [Name] | — | Monthly |
-| DAU/MAU Ratio | Daily actives ÷ monthly actives | GitHub API | [Name] | >[X]% | Monthly |
-| Acceptance Rate | Suggestions accepted ÷ shown | GitHub Usage Dashboard | [Name] | Track trend | Monthly |
-| Chat Engagement | Avg chat requests per user per day | GitHub API | [Name] | Increasing | Monthly |
+| Seat Utilization | Active users ÷ assigned seats (28d) | Vendor usage dashboard (e.g., GitHub Copilot) | [Name] | >[X]% | Weekly |
+| Monthly Active Users | Unique users with activity in 28d | Vendor usage API (e.g., GitHub Copilot Usage Metrics API) | [Name] | — | Monthly |
+| DAU/MAU Ratio | Daily actives ÷ monthly actives | Vendor usage API (e.g., GitHub Copilot) | [Name] | >[X]% | Monthly |
+| Acceptance Rate | Suggestions accepted ÷ shown | Vendor usage dashboard (e.g., GitHub Copilot) | [Name] | Track trend | Monthly |
+| Chat Engagement | Avg chat requests per user per day | Vendor usage API (e.g., GitHub Copilot) | [Name] | Increasing | Monthly |
 | Agent Adoption | % users using agent/edit modes | Code Gen Dashboard | [Name] | >[X]% | Monthly |
 | PR Cycle Time | Median time from PR open to merge | [Git analytics tool] | [Name] | Decreasing | Bi-weekly |
 | Deployment Frequency | Deploys per week | [CI/CD tool] | [Name] | Increasing | Monthly |
@@ -85,8 +85,8 @@
 
 | Source | Access Method | Permissions Needed | Status |
 |--------|--------------|-------------------|--------|
-| GitHub Usage Dashboard | Browser (admin access) | Org owner or billing manager | ☐ Confirmed ☐ Pending |
-| GitHub Copilot API | REST API with PAT or GitHub App | Org owner token scope | ☐ Confirmed ☐ Pending |
+| Vendor usage dashboard (e.g., GitHub Copilot) | Browser (admin access) | Org owner or billing manager | ☐ Confirmed ☐ Pending |
+| Vendor usage API (e.g., GitHub Copilot Usage Metrics API) | REST API with PAT or service account | Org owner token scope | ☐ Confirmed ☐ Pending |
 | Code Gen Dashboard | Browser (admin access) | Org owner or billing manager | ☐ Confirmed ☐ Pending |
 | Git analytics (DevLake, LinearB, etc.) | [Method] | [Permissions] | ☐ Confirmed ☐ Pending |
 | CI/CD platform | [Method] | [Permissions] | ☐ Confirmed ☐ Pending |
@@ -101,8 +101,8 @@
 
 | Tool | Purpose | Status |
 |------|---------|--------|
-| copilot-metrics-roi-toolkit | Usage data collection and ROI calculation | ☐ Deployed ☐ Planned ☐ Not needed |
-| GitHub Usage Dashboard | Visual usage metrics | ☐ Deployed ☐ Planned ☐ Not needed |
+| ai-coding-roi-toolkit | Usage data collection and ROI calculation | ☐ Deployed ☐ Planned ☐ Not needed |
+| Vendor usage dashboard (e.g., GitHub Copilot) | Visual usage metrics | ☐ Deployed ☐ Planned ☐ Not needed |
 | [DevLake / LinearB / Jellyfish] | DORA metrics, PR analytics | ☐ Deployed ☐ Planned ☐ Not needed |
 | [Survey tool, e.g., Google Forms] | Developer satisfaction surveys | ☐ Deployed ☐ Planned ☐ Not needed |
 | [BI tool, e.g., Power BI, Looker] | Dashboard and visualization | ☐ Deployed ☐ Planned ☐ Not needed |
@@ -131,7 +131,7 @@
 | Item | Details |
 |------|---------|
 | Baseline period | [START DATE] — [END DATE] |
-| Baseline type | ☐ Pre-rollout (no Copilot) ☐ Early rollout (first month) |
+| Baseline type | ☐ Pre-rollout (no AI tool) ☐ Early rollout (first month) |
 | Duration | [X] weeks |
 
 **Metrics to baseline:**
@@ -161,7 +161,7 @@
 - [ ] Baseline metrics are documented
 - [ ] First report delivered to stakeholders
 - [ ] Seat utilization >[X]%
-- [ ] At least [X] teams actively using Copilot
+- [ ] At least [X] teams actively using the AI coding agent
 
 ### Phase 2: Evidence (Months 4–6)
 
@@ -188,7 +188,7 @@
 | Confounding variables (process changes, team changes) | High | Medium | Document concurrent changes; note in caveats |
 | Data gaps in DORA metrics | Medium | Medium | Start with available data; plan instrumentation for gaps |
 | Stakeholder misalignment on what to measure | Medium | High | Run alignment session before starting; use this template |
-| Tool or API changes | Low | Medium | Monitor GitHub changelog; abstract data collection layer |
+| Tool or API changes | Low | Medium | Monitor your AI vendor's changelog (e.g., GitHub changelog for Copilot); abstract data collection layer |
 | [Add your own] | [L/M/H] | [L/M/H] | [Mitigation] |
 
 ---

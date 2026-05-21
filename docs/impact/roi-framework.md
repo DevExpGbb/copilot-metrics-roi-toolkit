@@ -1,6 +1,6 @@
 # ROI Framework
 
-A 5-step process to build a defensible ROI case for Copilot.
+A 5-step process to build a defensible ROI case for AI-assisted development.
 
 Start by identifying where developer workflows are still slow, repetitive, or frustrating. Then show whether reducing that friction improves delivery, developer satisfaction, and ultimately business value.
 
@@ -16,7 +16,7 @@ graph LR
 
 ## Step 1: Establish Baseline
 
-Capture pre-Copilot or low-adoption metrics. Use **4-8 weeks** minimum, and include at least one short developer survey so you have a baseline for perceived friction and satisfaction.
+Capture pre-rollout or low-adoption metrics. Use **4-8 weeks** minimum, and include at least one short developer survey so you have a baseline for perceived friction and satisfaction.
 
 | Metric | Source |
 |---|---|
@@ -29,7 +29,7 @@ Capture pre-Copilot or low-adoption metrics. Use **4-8 weeks** minimum, and incl
 
 ## Step 2: Quantify Productivity Proxies
 
-Track Copilot's leading indicators over your measurement window:
+Track your AI coding agent's leading indicators over your measurement window:
 
 - **Acceptance rate trends** — growth suggests deepening adoption
 - **Lines added with AI** — directional volume indicator

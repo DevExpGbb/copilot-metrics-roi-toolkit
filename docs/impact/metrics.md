@@ -1,6 +1,6 @@
 # Impact Metrics Guide
 
-Use Developer Experience signals, delivery outcomes, and business-value measures together to find friction, reduce it, and show whether Copilot is improving the engineering system.
+Use Developer Experience signals, delivery outcomes, and business-value measures together to find friction, reduce it, and show whether your AI coding agent is improving the engineering system.
 
 Good Developer Experience measurement does more than correlate DORA metrics. It looks for points of friction in the developer loop, tracks whether they are getting easier to navigate, and then connects those improvements to delivery speed, quality, satisfaction, and business value.
 
@@ -8,13 +8,13 @@ Good Developer Experience measurement does more than correlate DORA metrics. It 
 
 ## Delivery and Developer Experience Outcomes to Track
 
-| Metric | How Copilot May Influence It | How to Measure |
+| Metric | How an AI Coding Agent May Influence It | How to Measure |
 |---|---|---|
-| **Developer Satisfaction** | Less friction can improve confidence, flow, and willingness to keep using Copilot | Pulse surveys, recurring sentiment questions, qualitative comments |
-| **Self-Reported Time Saved / Friction Reduced** | Copilot can reduce repetitive work, waiting, and context switching | Short developer surveys, recurring pulse checks, retrospective comments |
+| **Developer Satisfaction** | Less friction can improve confidence, flow, and willingness to keep using the tool | Pulse surveys, recurring sentiment questions, qualitative comments |
+| **Self-Reported Time Saved / Friction Reduced** | AI assistance can reduce repetitive work, waiting, and context switching | Short developer surveys, recurring pulse checks, retrospective comments |
 | **PR Throughput** | More code generated → more PRs | PR creation/merge counts over time |
 | **PR Cycle Time** | Faster coding + AI reviews → shorter cycles | Median time open → merge |
-| **Time to Merge** | Quicker reviews with Copilot suggestions | Median review + merge duration |
+| **Time to Merge** | Quicker reviews with AI suggestions | Median review + merge duration |
 | **Deployment Frequency** | Faster dev loops → more deploys | Deploys per week/month (DORA) |
 | **Change Failure Rate** | AI code may reduce or increase defects | Failed / total deployments (DORA) |
 | **MTTR** | Faster debugging → quicker recovery | Mean incident open → resolution (DORA) |
@@ -23,7 +23,7 @@ Good Developer Experience measurement does more than correlate DORA metrics. It 
 
 ## Why Surveys Matter
 
-Surveys highlight friction that telemetry misses: confidence, perceived quality, time lost to repetitive work, and whether developers feel Copilot is helping them stay in flow. Use them alongside delivery metrics, not instead of them.
+Surveys highlight friction that telemetry misses: confidence, perceived quality, time lost to repetitive work, and whether developers feel the AI tool is helping them stay in flow. Use them alongside delivery metrics, not instead of them.
 
 !!! info "Developer survey starters"
     Example Microsoft Forms survey links (may require Microsoft 365 access):
@@ -43,9 +43,9 @@ Surveys highlight friction that telemetry misses: confidence, perceived quality,
 | PR metrics | GitHub API / repository data | GitHub, Apache DevLake, Power BI, Splunk, or another analytics stack |
 | Deployments | CI/CD pipeline | GitHub Actions, Jenkins, Apache DevLake, Splunk, or another analytics stack |
 | Incidents | Issue tracker | GitHub Issues, Jira, PagerDuty, Splunk, or another analytics stack |
-| Copilot usage | Copilot Usage Metrics API / dashboard exports | GitHub native dashboards, Apache DevLake, Power BI, Splunk, or another BI stack |
+| Copilot usage | Vendor usage telemetry — for example, the **GitHub Copilot Usage Metrics API** / dashboard exports | GitHub native dashboards, Apache DevLake, Power BI, Splunk, or another BI stack |
 
-If you already use Power BI, Splunk, Tableau, or another BI stack, feed the Copilot usage data and your delivery data into that platform and build the views there. If you want a prebuilt open-source path, **Apache DevLake** ingests Copilot, GitHub, and delivery data into a common schema and ships Grafana dashboards for adoption-tier and DORA-style analysis.
+If you already use Power BI, Splunk, Tableau, or another BI stack, feed your AI tool usage data and your delivery data into that platform and build the views there. If you want a prebuilt open-source path, **Apache DevLake** ingests AI tool usage (currently with a `gh-copilot` plugin for GitHub Copilot), GitHub, and delivery data into a common schema and ships Grafana dashboards for adoption-tier and DORA-style analysis.
 
 → For native data collection and BI ingestion patterns, see the [Analytics-Ready Playbook](../adoption/analytics-ready.md).
 
@@ -69,11 +69,11 @@ DORA (DevOps Research and Assessment) provides four key metrics with industry be
 
 ## Correlation by Adoption Tier
 
-The most compelling analysis segments teams by Copilot adoption level:
+The most compelling analysis segments teams by AI tool adoption level:
 
 | Tier | Definition | Expected Pattern |
 |---|---|---|
-| **Low** (<25% active) | Few developers using Copilot | Baseline-like metrics |
+| **Low** (<25% active) | Few developers using the AI tool | Baseline-like metrics |
 | **Medium** (25-50%) | Moderate adoption | Moderate improvement |
 | **High** (50-75%) | Most of team using regularly | Clear improvement |
 | **Very High** (>75%) | Near-universal adoption | Strongest improvement |
@@ -92,8 +92,8 @@ Tier 3 (High):   PR Cycle Time = 2.4 days
 
 | Scenario | Baseline Approach | Minimum Duration |
 |---|---|---|
-| Pre-Copilot data available | Use pre-enablement period | 4-8 weeks |
-| Copilot already deployed | Low-adoption teams as control | 4-8 weeks |
+| Pre-rollout data available | Use pre-enablement period | 4-8 weeks |
+| AI tool already deployed | Low-adoption teams as control | 4-8 weeks |
 | No historical data | Current state = baseline | Measure forward 8 weeks |
 
 !!! tip

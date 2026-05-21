@@ -6,10 +6,10 @@ This workflow keeps markdown template pages and downloadable executive artifacts
 
 | Markdown template page | Downloadable artifact | Format |
 |------------------------|-----------------------|--------|
-| `kpi-table.md` | `artifacts/copilot-kpi-table-template.docx` | DOCX |
-| `roi-one-pager.md` | `artifacts/copilot-roi-one-pager-template.docx` | DOCX |
-| `qbr-outline.md` | `artifacts/copilot-qbr-outline-template.pptx` | PPTX |
-| `measurement-plan.md` | `artifacts/copilot-measurement-plan-template.docx` | DOCX |
+| `kpi-table.md` | `artifacts/ai-coding-kpi-table-template.docx` | DOCX |
+| `roi-one-pager.md` | `artifacts/ai-coding-roi-one-pager-template.docx` | DOCX |
+| `qbr-outline.md` | `artifacts/ai-coding-qbr-outline-template.pptx` | PPTX |
+| `measurement-plan.md` | `artifacts/ai-coding-measurement-plan-template.docx` | DOCX |
 
 ## Source-of-truth rule
 
@@ -28,7 +28,7 @@ This workflow keeps markdown template pages and downloadable executive artifacts
 ## Naming and placement rules
 
 - Keep artifacts in `docs/exec-templates/artifacts/` so MkDocs publishes them.
-- Use stable filenames prefixed with `copilot-` to avoid link churn.
+- Use stable filenames prefixed with `ai-coding-` to avoid link churn. (Older `copilot-` prefixed artifacts may be retained as redirect aliases for one release cycle to preserve external links.)
 - Do not rename artifacts unless there is a strong reason; if renamed, update all links in the same PR.
 
 ## PR checklist

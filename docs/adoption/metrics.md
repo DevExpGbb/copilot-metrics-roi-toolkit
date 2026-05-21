@@ -17,17 +17,17 @@ Use this page to answer four questions:
 
 | Metric | What it measures | How to use it | Scope |
 |---|---|---|---|
-| **DAU** | Unique users interacting with Copilot on a given day | Best weekly operating signal for day-to-day adoption momentum | Enterprise, Org |
+| **DAU** | Unique users interacting with the AI coding agent on a given day | Best weekly operating signal for day-to-day adoption momentum | Enterprise, Org |
 | **WAU** | Unique users in a 7-day rolling window | Use with DAU to see whether usage is habitual vs. occasional | Enterprise, Org |
 | **MAU** | Unique users in a 28-day rolling window | Best high-level view of sustained adoption | Enterprise, Org |
 | **Seat Utilization** | Active users divided by assigned seats | Flags over-licensing or inactive cohorts that need enablement | Enterprise, Org |
 | **Acceptance Rate** | Accepted suggestions divided by suggestions shown | Best proxy for suggestion relevance and developer trust | Enterprise, Org, User |
 | **Chat Requests / User** | Average chat interactions per active user | Shows whether users are moving from completions into conversational workflows | Enterprise, Org |
-| **Agent Adoption %** | Share of active users using agent or edit modes | Good signal that teams are exploring more advanced Copilot workflows | Enterprise, Org |
+| **Agent Adoption %** | Share of active users using agent or edit modes | Good signal that teams are exploring more advanced AI-assisted workflows | Enterprise, Org |
 | **Feature Mix** | Usage split across completions, chat, CLI, PR summaries, and agent workflows | Use to tell whether adoption is broadening or stuck in one mode | Enterprise, Org |
 | **Lines Added with AI** | Lines accepted into the editor from suggestions | Useful output-volume indicator, but not a productivity metric on its own | Enterprise, Org |
 | **IDE Distribution** | Usage breakdown by editor | Helps identify unsupported or under-configured IDE cohorts | Enterprise, Org |
-| **Language Distribution** | Usage breakdown by programming language | Helps spot where Copilot is most relevant or least trusted | Enterprise, Org |
+| **Language Distribution** | Usage breakdown by programming language | Helps spot where the AI tool is most relevant or least trusted | Enterprise, Org |
 | **Model Distribution** | Usage breakdown by AI model | Useful for change management when model usage shifts after policy or feature changes | Enterprise, Org |
 
 !!! tip "Interpretation heuristics"
@@ -42,7 +42,7 @@ Use this page to answer four questions:
 
 | Dashboard | Review each week | Why it matters |
 |---|---|---|
-| **Usage & Adoption** | DAU, WAU, MAU, seat utilization, feature mix | Tells you whether Copilot is spreading and becoming routine |
+| **Usage & Adoption** | DAU, WAU, MAU, seat utilization, feature mix | Tells you whether the AI coding agent is spreading and becoming routine |
 | **Code Generation** | Agent adoption, lines added with AI, model and language mix | Tells you how deeply developers are using more advanced flows |
 
 ### Weekly review sequence
@@ -63,7 +63,7 @@ Use this page to answer four questions:
 |---|---|---|
 | **Low DAU + many assigned seats** | Enablement or licensing gap | Run onboarding, reclaim inactive seats, confirm extension rollout |
 | **High DAU + low acceptance** | Suggestions are visible but not trusted | Review language coverage, coding patterns, and prompt habits |
-| **High acceptance + low chat / agent usage** | Teams use Copilot only for inline completions | Promote chat, edit, and multi-step workflows |
+| **High acceptance + low chat / agent usage** | Teams use the AI tool only for inline completions | Promote chat, edit, and multi-step workflows |
 | **Strong usage in one IDE, weak in another** | Platform friction | Audit IDE versions, extension deployment, and policy support |
 | **Healthy MAU + weak DAU/MAU ratio** | Lots of trial, limited habit formation | Focus on weekly use cases and team-level champions |
 | **High lines added + flat feature mix** | Output volume is growing, but workflow depth is not | Pair enablement with examples beyond code completion |
@@ -72,10 +72,12 @@ Use this page to answer four questions:
 
 ## Scope, Freshness, and Limitations
 
-!!! warning "What IS included"
+The scope notes below describe **GitHub Copilot's** Usage Metrics API, the canonical reference implementation. Other AI coding agents have their own scope rules — check your vendor's telemetry documentation.
+
+!!! warning "What IS included (Copilot reference)"
     IDE telemetry for completions, chat, agent mode, and PR-related workflows. **Users must have telemetry enabled.**
 
-!!! danger "What is NOT included"
+!!! danger "What is NOT included (Copilot reference)"
     - Copilot Chat on GitHub.com
     - GitHub Mobile activity
     - License or seat assignment administration data (use the [Copilot User Management API](https://docs.github.com/en/rest/copilot/copilot-user-management))
@@ -136,6 +138,8 @@ Use this page to answer four questions:
 ---
 
 ## Further Reading
+
+These references are GitHub Copilot–specific (the reference implementation for this toolkit).
 
 - [Shared metrics references](../references.md) - includes the cross-phase GitHub Copilot Metrics PDF with adoption and ROI metrics
 - [GitHub Copilot usage metrics concepts](https://docs.github.com/en/copilot/concepts/copilot-usage-metrics/copilot-metrics)

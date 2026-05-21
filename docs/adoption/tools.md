@@ -1,6 +1,6 @@
 # Phase 1: Tools & Resources
 
-Tools for measuring and visualizing Copilot adoption.
+Tools for measuring and visualizing AI coding agent adoption. The current catalog is GitHub Copilot–first because Copilot has the most mature public telemetry; the same patterns (native dashboard → API export → BI dashboard) apply to other vendors that expose comparable data.
 
 ---
 
