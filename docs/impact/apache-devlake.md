@@ -13,14 +13,14 @@ This playbook shows one implementation path: deploy **Apache DevLake** with the 
 
 <div class="artifact-preview" markdown>
 <iframe
-  src="https://devexpgbb.github.io/copilot-metrics-roi-toolkit/assets/devlake-decision-makers-guide.pdf"
+  src="../assets/devlake-decision-makers-guide.pdf"
   width="100%"
   height="600"
   frameborder="0"
   title="Apache DevLake decision-maker guide preview">
 </iframe>
 
-[:material-download: Download PDF](../assets/devlake-decision-makers-guide.pdf){ .md-button }
+[:material-download: Download decision-maker guide](../assets/devlake-decision-makers-guide.pdf){ .md-button }
 
 [:material-presentation: Editable PPTX source](../assets/devlake-decision-makers-guide.pptx){ .md-button .md-button--secondary }
 </div>
