@@ -1,6 +1,6 @@
 # QBR Outline Template
 
-**Quarterly Business Review slide structure**
+**Quarterly executive deck skeleton**
 
 ---
 
@@ -23,228 +23,236 @@
 
 ## How to Use
 
-1. **Copy** this outline and use it as the skeleton for your QBR deck.
-2. **One slide per section** — each heading below maps to a single slide.
-3. **Fill in** the bracketed placeholders with your data.
-4. **Trim or expand** based on your audience (see audience guidance at the bottom).
+1. **Copy** this deck structure into your presentation tool and keep the slide order unless your audience only needs the trimmed variant.
+2. **Replace** every placeholder with one reporting period, one baseline, and one owner so the story stays internally consistent.
+3. **Lead** with outcomes, not tooling details: adoption explains reach, engagement explains quality, impact explains delivery evidence, and ROI explains business value.
+4. **Show** one visual anchor per slide: a chart, stat card cluster, quote card, heatmap, or roadmap graphic.
+5. **Trim** appendix and detail slides aggressively for executive audiences; keep backup material in speaker notes or appendix.
+
+---
+
+## Recommended Deck Arc
+
+| Slide | What leadership should learn | Evidence type |
+|-------|-------------------------------|---------------|
+| Cover | What quarter, scope, and audience this review covers | Reporting period + owner |
+| Executive Summary | What changed, why it matters, what happens next | Three headlines |
+| Adoption Snapshot | Whether coverage and usage breadth are healthy | Utilization + active usage trends |
+| Engagement Quality | Whether usage is deep enough to matter | Feature mix + stickiness signals |
+| Impact Evidence | Whether engineering outcomes moved | Delivery metrics + cohort comparisons |
+| ROI Summary | Whether the value case is credible | Cost, value, net, ROI |
+| Proof Points | Whether the numbers match lived experience | Quotes + team stories |
+| Risks & Actions | What could slow momentum | Issues, owners, mitigations |
+| Next-Quarter Plan | What you will improve next | Targets, initiatives, dates |
+| Appendix *(optional)* | How the metrics were sourced and caveated | Data sources + limitations |
+
+---
+
+## Cover Slide
+
+**Purpose:** Frame the reporting period, scope, and business context in one glance.
+
+| Element | Fill-in guidance | Example |
+|---------|------------------|---------|
+| Review title | Use quarter + program name | **GitHub Copilot QBR - Q3 FY26** |
+| Scope line | Name the covered population | `420 licensed developers across product engineering` |
+| Executive subtitle | State the business theme, not the tooling theme | `From broad adoption to measurable delivery impact` |
+| Presenter line | Include accountable owner and review date | `Prepared by DevEx and Platform Engineering - 15 Oct 2026` |
+
+**Visual direction:** Dark title slide with one dominant headline, a short subtitle, and a single supporting motif such as a utilization sparkline, muted grid, or three small KPI chips.
+
+**Bridge to next slide:** *"The next slide answers the only question executives care about first: what improved, what is still at risk, and what we will do next."*
 
 ---
 
 ## Slide 1: Executive Summary
 
-**Purpose:** Set context in 60 seconds. Three headlines, no deep-dives yet.
+**Purpose:** Give leaders the quarter in 60 seconds.
 
-| Headline | Status |
-|----------|--------|
-| **Adoption** | [e.g., "78% seat utilization, up from 62% last quarter"] |
-| **Key Win** | [e.g., "PR cycle time decreased 25% across adopting teams"] |
-| **Focus Area** | [e.g., "Agent adoption is at 12% — enabling 5 pilot teams in Q3"] |
+| Summary block | Fill-in guidance | Example language |
+|---------------|------------------|------------------|
+| Adoption headline | Lead with reach and trend | `Seat utilization reached 78%, up 16 points quarter over quarter.` |
+| Outcome headline | Tie usage to a delivery or quality signal | `High-adoption teams merged pull requests 19% faster than low-adoption teams.` |
+| Focus headline | Name the gap and response | `Agent-mode adoption remains low at 14%; targeted enablement starts next month.` |
+| Decision ask | End with one executive ask or endorsement | `Approve continued rollout plus focused enablement for three under-engaged orgs.` |
 
-**Talking point:** *"We're seeing strong adoption growth and early productivity signals. Our focus next quarter is deepening engagement through agent mode enablement."*
+**Visual direction:** Three large stat cards across the slide plus a narrow footer strip for the decision ask.
 
----
+**Presenter note:** Keep this slide declarative. Do not explain methods here; save proof for later slides.
 
-## Slide 2: Adoption Overview
-
-**Purpose:** Show top-line health of the Copilot program with trends.
-
-| KPI | Last Quarter | This Quarter | Δ | Trend |
-|-----|-------------|-------------|---|-------|
-| Seat Utilization | [X]% | [Y]% | [+/-Z]% | ↑↓→ |
-| Monthly Active Users | [X] | [Y] | [+/-Z] | ↑↓→ |
-| DAU/MAU Ratio | [X]% | [Y]% | [+/-Z]% | ↑↓→ |
-| Acceptance Rate | [X]% | [Y]% | [+/-Z]% | ↑↓→ |
-| Chat Engagement (avg/user/day) | [X] | [Y] | [+/-Z] | ↑↓→ |
-
-**Commentary:** [2–3 sentences explaining the most notable changes and why.]
+**Bridge to next slide:** *"If the summary sounds strong, the next question is whether adoption is broad and durable across the population."*
 
 ---
 
-## Slide 3: Engagement Deep-Dive
+## Slide 2: Adoption Snapshot
 
-**Purpose:** Show how developers are using Copilot across different dimensions.
+**Purpose:** Show whether Copilot usage is broad enough to justify continued investment.
 
-### Feature Mix
+| KPI | What to show | Why it matters |
+|-----|--------------|----------------|
+| Seat utilization | Current quarter, prior quarter, delta | Reveals coverage and license hygiene |
+| Monthly active users | Current quarter, prior quarter, delta | Shows whether assigned seats translate to real use |
+| DAU/MAU ratio | Current quarter, prior quarter, delta | Indicates repeat usage rather than trial behavior |
+| Acceptance rate | Current quarter, prior quarter, delta | Shows suggestion usefulness and workflow fit |
+| Chat engagement | Average requests per active user | Highlights whether usage is broad but shallow or broad and deep |
 
-| Feature | % of Activity | Trend |
-|---------|--------------|-------|
-| Code completions | [X]% | ↑↓→ |
-| Chat (inline + panel) | [X]% | ↑↓→ |
-| Agent / edit mode | [X]% | ↑↓→ |
-| PR summaries | [X]% | ↑↓→ |
+**Commentary prompt:** Explain the two most important movements, what caused them, and whether the change is durable or seasonal.
 
-### Top Languages
+**Executive headline example:** *"Adoption is no longer the bottleneck: coverage is healthy, and repeat usage rose alongside acceptance quality."*
 
-| Language | Suggestions Accepted | Acceptance Rate |
-|----------|---------------------|----------------|
-| [Language 1] | [X] | [Y]% |
-| [Language 2] | [X] | [Y]% |
-| [Language 3] | [X] | [Y]% |
+**Visual direction:** One trend chart for utilization and active users, plus a compact KPI table or stat row for supporting metrics.
 
-### IDE Distribution
+**Bridge to next slide:** *"Coverage alone is not enough; the next slide shows whether developers are using the higher-value capabilities that tend to correlate with stronger outcomes."*
 
-| IDE | Active Users |
-|-----|-------------|
-| VS Code | [X] |
-| JetBrains | [X] |
-| Visual Studio | [X] |
-| Neovim / Other | [X] |
+---
 
-### Agent Adoption Trend
+## Slide 3: Engagement Quality
 
-*[Include a line chart or table showing agent mode adoption over the past 3–4 months.]*
+**Purpose:** Show how people are using Copilot, not just whether they opened it.
 
-| Month | Agent Users | % of Active Users |
-|-------|------------|-------------------|
-| [Month 1] | [X] | [Y]% |
-| [Month 2] | [X] | [Y]% |
-| [Month 3] | [X] | [Y]% |
+| Lens | Fill-in guidance | Example insight |
+|------|------------------|-----------------|
+| Feature mix | Break out completions, chat, edits/agents, PR review help | `Chat and edit-mode usage grew faster than raw completions, suggesting deeper workflow integration.` |
+| Top languages | Show accepted suggestions and acceptance rate by language | `TypeScript and Python drive most accepted suggestions; Java remains an enablement opportunity.` |
+| IDE distribution | Show active users by editor family | `JetBrains adoption improved after plugin rollout; Visual Studio remains stable.` |
+| Agent or edit trend | Show the last 3-4 months | `Agent usage doubled from 7% to 14% of active users after pilot training.` |
+
+**Commentary prompt:** Call out one behavior that signals maturity and one behavior that signals under-realized value.
+
+**Visual direction:** Use a 2x2 layout: feature-mix chart, language table, IDE split, and a small line chart for agent adoption.
+
+**Bridge to next slide:** *"This is the point where the audience asks whether deeper engagement changed engineering outcomes; answer that directly on the next slide."*
 
 ---
 
 ## Slide 4: Impact Evidence
 
-**Purpose:** Connect Copilot adoption to engineering outcomes.
+**Purpose:** Connect adoption and engagement to delivery outcomes with honest confidence levels.
 
-### Productivity Metrics
+| Metric | Baseline prompt | Current prompt | Confidence prompt |
+|--------|-----------------|----------------|-------------------|
+| PR cycle time | Use a pre-rollout or prior-quarter baseline | Show current median or p75 | Rate confidence based on data quality and competing changes |
+| Deployment frequency | Keep the same team cohort as baseline | Show current weekly or monthly rate | Mark low confidence if release process changed materially |
+| Time to first review | Use the same PR population | Show current review turnaround | Note if team mix changed |
+| Change failure rate | Use the same service set | Show current rate | Call out where the signal is directional, not causal |
 
-| Metric | Baseline | Current | Δ | Attribution Confidence |
-|--------|----------|---------|---|----------------------|
-| PR cycle time (median) | [X] hrs | [Y] hrs | [Z]% | [High/Med/Low] |
-| Deployment frequency | [X]/wk | [Y]/wk | [Z]% | [High/Med/Low] |
-| Time to first review | [X] hrs | [Y] hrs | [Z]% | [High/Med/Low] |
-| Change failure rate | [X]% | [Y]% | [Z]% | [High/Med/Low] |
+**Cohort analysis prompt:** Compare high-, medium-, and low-adoption teams to show directional correlation without overstating causality.
 
-### DORA Correlation (if available)
+**Executive headline example:** *"The strongest evidence of impact is faster review and merge flow among teams that combine high utilization with heavier chat and edit-mode usage."*
 
-*[Optional: Include a scatter plot or summary showing relationship between Copilot adoption level and DORA metrics across teams.]*
+**Visual direction:** Left side for a comparison table or bars, right side for a short narrative callout on what the evidence does and does not prove.
 
-| Team Cohort | Copilot Usage Level | Avg PR Cycle Time | Deploy Freq |
-|------------|--------------------|--------------------|------------|
-| High adopters | >80% utilization | [X] hrs | [X]/wk |
-| Medium adopters | 40–80% utilization | [X] hrs | [X]/wk |
-| Low adopters | <40% utilization | [X] hrs | [X]/wk |
-
-**Key insight:** [1–2 sentences summarizing the strongest evidence of impact.]
+**Bridge to next slide:** *"Once the delivery signal is clear, translate it into the business lens executives will use to judge the program: value versus cost."*
 
 ---
 
 ## Slide 5: ROI Summary
 
-**Purpose:** Translate impact into dollars for executive audiences.
+**Purpose:** Turn engineering improvement signals into a defensible financial story.
 
-| Item | Amount |
-|------|--------|
-| Quarterly license cost | $[AMOUNT] |
-| Estimated quarterly value created | $[AMOUNT] |
-| **Net value this quarter** | **$[NET]** |
-| **Annualized ROI** | **[X]%** |
+| ROI block | Fill-in guidance | Example |
+|-----------|------------------|---------|
+| Quarterly cost | Use the actual seat count and pricing basis | `$31,500 in quarterly license cost` |
+| Estimated value created | Sum only the value drivers you can defend | `$118,000 in modeled quarterly value` |
+| Net value | Subtract cost from estimated value | `$86,500 net value this quarter` |
+| Annualized ROI | Annualize carefully and label assumptions | `275% annualized ROI based on current run rate` |
 
-### Value Drivers
+**Value-driver prompt:** Break value into 2-4 drivers such as developer time saved, throughput improvement, incident avoidance, or reduced review latency.
 
-| Driver | Estimated Quarterly Value |
-|--------|--------------------------|
-| Developer time savings | $[AMOUNT] |
-| Throughput improvements | $[AMOUNT] |
-| Quality / incident reduction | $[AMOUNT] |
-| **Total** | **$[TOTAL]** |
+**Method note:** Link back to the [ROI One-Pager](roi-one-pager.md) for calculation detail rather than overloading this slide.
 
-*See the [ROI One-Pager](roi-one-pager.md) for full methodology.*
+**Visual direction:** One oversized ROI number, two supporting mini-cards for cost and value, and a short driver table beneath them.
+
+**Bridge to next slide:** *"Numbers land better when they sound true to the people closest to the work; bring in proof points from teams on the next slide."*
 
 ---
 
-## Slide 6: Success Stories
+## Slide 6: Proof Points and Success Stories
 
-**Purpose:** Make the data human. 2–3 short stories from real teams.
+**Purpose:** Make the program credible with team-level examples that sound like lived experience, not marketing copy.
 
-### Story 1: [Team/Developer Name]
+| Story element | Fill-in guidance | Example |
+|---------------|------------------|---------|
+| Team or persona | Choose 2-3 varied examples | `Payments platform team`, `Frontend guild lead`, `New hire cohort` |
+| Situation | Name the workflow or pain point | `Large API migrations and repetitive test updates` |
+| Result | Tie to a measurable or observable change | `Review-ready pull requests now land one day sooner` |
+| Quote | Use plainspoken, attributable language | `"Copilot is most valuable when we use chat and edits together during refactors."` |
 
-> *"[Direct quote from developer or manager about their experience with Copilot.]"*
+**Collection prompt:** Prefer short quotes from surveys, retrospectives, office hours, or manager interviews collected during the same quarter.
 
-**Context:** [1–2 sentences about the team, what they used Copilot for, and the result.]
+**Visual direction:** Two quote cards plus one compact proof-point card with a metric, team name, and before/after comparison.
 
-### Story 2: [Team/Developer Name]
-
-> *"[Direct quote.]"*
-
-**Context:** [1–2 sentences.]
-
-### Story 3: [Team/Developer Name] *(optional)*
-
-> *"[Direct quote.]"*
-
-**Context:** [1–2 sentences.]
-
-**How to collect stories:** Run a short Slack/Teams survey asking "How has Copilot helped you this quarter?" or interview 2–3 team leads.
+**Bridge to next slide:** *"Credibility also requires acknowledging what is not working yet and how you are handling it."*
 
 ---
 
-## Slide 7: Risks & Blockers
+## Slide 7: Risks and Blockers
 
-**Purpose:** Be transparent about challenges and show you have a plan.
+**Purpose:** Show disciplined program management, not just optimistic reporting.
 
-| Risk / Blocker | Impact | Status | Action Item | Owner |
-|----------------|--------|--------|-------------|-------|
-| Low adoption in [Team X] | Underutilized licenses | 🔴 | Targeted enablement session scheduled [DATE] | [NAME] |
-| [API/policy change] | [Impact description] | 🟡 | [Mitigation plan] | [NAME] |
-| [Data gap or limitation] | [Impact description] | 🟡 | [Plan to address] | [NAME] |
-| [Security/compliance concern] | [Impact description] | 🟢 | [Resolution] | [NAME] |
+| Risk area | What to include | Example |
+|-----------|-----------------|---------|
+| Low adoption pockets | Name the org or workflow lagging | `Security engineering remains below 35% seat utilization.` |
+| Capability gap | Note missing behaviors such as low chat or agent usage | `High completion use but weak chat/edit usage limits deeper workflow gains.` |
+| Data limitation | Identify evidence gaps | `No team-level satisfaction pulse this quarter; survey refresh scheduled next month.` |
+| Policy or change-management issue | Note compliance, enablement, or tool friction | `Restricted network policy slows extension rollout in one business unit.` |
 
----
+**Action prompt:** Every risk should show current status, owner, mitigation, and the point at which leadership should intervene.
 
-## Slide 8: Next Quarter Plan
+**Visual direction:** Risk heatmap or status table with strong status colors and one action-owner column.
 
-**Purpose:** Show the roadmap for continued improvement.
-
-### Planned Actions
-
-| Action | Target | Timeline | Owner |
-|--------|--------|----------|-------|
-| [e.g., Agent mode enablement for 5 teams] | [e.g., >30% agent adoption] | [e.g., Q3 Week 1–6] | [NAME] |
-| [e.g., Custom instructions rollout] | [e.g., All teams] | [e.g., Q3 Week 2–4] | [NAME] |
-| [e.g., Developer survey #2] | [e.g., >60% response rate] | [e.g., Q3 Week 8] | [NAME] |
-| [e.g., License optimization review] | [e.g., <5% idle seats] | [e.g., Q3 Week 10] | [NAME] |
-
-### Next Quarter Targets
-
-| KPI | Current | Q+1 Target |
-|-----|---------|-----------|
-| Seat Utilization | [X]% | [Y]% |
-| Agent Adoption | [X]% | [Y]% |
-| Developer Satisfaction | [X]/5 | [Y]/5 |
+**Bridge to next slide:** *"Close by showing the concrete plan that addresses these blockers and moves the next quarter forward."*
 
 ---
 
-## Appendix: Data Sources & Methodology
+## Slide 8: Next-Quarter Plan
 
-| Data Point | Source | Collection Method | Limitations |
-|-----------|--------|-------------------|-------------|
-| Seat utilization, MAU | GitHub Usage Dashboard / API | Automated export | 28-day rolling window |
-| Acceptance rate, chat engagement | GitHub Usage Dashboard / API | Automated export | Aggregate only; no per-user detail in dashboard |
-| Code generation metrics | Code Gen Dashboard / API | Automated export | Language-level granularity varies |
-| PR cycle time, deploy frequency | [DevLake / Git analytics / internal tooling] | [Method] | [Limitations] |
-| Developer satisfaction | Internal survey | [Tool, e.g., Google Forms] | Self-reported; response rate = [X]% |
-| ROI calculations | Derived from above sources | See [ROI One-Pager](roi-one-pager.md) | Estimates, not causal attribution |
+**Purpose:** Convert the review into a forward-looking operating plan.
+
+| Plan element | Fill-in guidance | Example |
+|--------------|------------------|---------|
+| Initiative | Name the enablement, rollout, or optimization action | `Expand agent-mode enablement to five pilot teams` |
+| Business target | State the measurable outcome | `Increase agent usage to 25% of active users` |
+| Timing | Use quarter-relative timing | `Weeks 2-6 of Q4` |
+| Owner | Name one accountable lead | `Director, Developer Experience` |
+
+**Target prompt:** Include 3-5 next-quarter targets spanning adoption, engagement, impact, and program health.
+
+**Executive closing example:** *"The program does not need a strategy reset; it needs targeted enablement, clearer proof by cohort, and tighter license optimization in low-use pockets."*
+
+**Visual direction:** Roadmap or three-lane action plan with milestones on top and target KPI cards below.
 
 ---
 
-## Audience Adaptation Guide
+## Appendix: Data Sources and Methodology *(optional)*
 
-### For Board / C-Suite
+**Purpose:** Keep the deck executive-friendly while preserving analytical defensibility.
 
-- Use slides 1, 2, 5, 8 only.
-- Lead with ROI and strategic value.
-- Keep to 15 minutes.
+| Data point | Source | Collection method | Limitation to disclose |
+|-----------|--------|-------------------|------------------------|
+| Utilization, MAU | GitHub dashboard or API | Automated export | Rolling-window definitions can shift week to week |
+| Acceptance, chat engagement | GitHub dashboard or API | Automated export | Often aggregate, not user-level |
+| Code generation and edit usage | Code generation dashboard or API | Automated export | Language and feature detail can vary by plan |
+| Delivery outcomes | DevLake, git analytics, CI/CD tooling | Cohort comparison or trend analysis | Multiple process changes may affect attribution |
+| Developer sentiment | Internal pulse survey | Survey or interview synthesis | Self-reported and response-rate sensitive |
+| ROI calculations | Derived model | Finance-reviewed assumptions | Estimate, not proof of sole causality |
 
-### For VP Engineering / Director Level
+**Visual direction:** Clean reference table with no more than six rows; move any long methods detail to speaker notes.
 
-- Use all slides except appendix.
-- Emphasize slides 3, 4, 7.
-- Allow 30 minutes with discussion.
+---
 
-### For Team Leads / Engineering Managers
+## Audience Trimming Guide
 
-- Use slides 2, 3, 4, 6, 7.
-- Go deeper on engagement data and team-level breakdowns.
-- Share raw data or dashboard links for self-service exploration.
-- Allow 45 minutes with Q&A.
+| Audience | Keep | Trim | Emphasize |
+|----------|------|------|-----------|
+| C-suite / board | Cover, Slides 1, 2, 5, 7, 8 | Slide 3 detail, most of appendix, extra stories | ROI, delivery signal, top risks, executive ask |
+| VP Engineering / directors | Cover, Slides 1-8 | Appendix only if questioned | Adoption quality, impact evidence, operator actions |
+| Team leads / engineering managers | Slides 2-8 plus appendix | Compress ROI to one section if time is short | Behavior change, team examples, blockers, next actions |
+
+**Timing guide:** 10-15 minutes for C-suite, 20-30 minutes for VP Engineering, 30-45 minutes for manager-level reviews with discussion.
+
+## What to do next
+
+- :material-file-powerpoint: Download the [PPTX template](artifacts/copilot-qbr-outline-template.pptx) and customize it for your next review.
+- :material-finance: Pair this outline with the [ROI One-Pager](roi-one-pager.md) when leadership wants calculation detail.
+- :material-table: Use the [KPI Table](kpi-table.md) as the appendix or data backup for this deck.
