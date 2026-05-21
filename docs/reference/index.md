@@ -8,6 +8,21 @@ Use the reference chapter when you need definitions, raw data surfaces, tooling 
 
 </div>
 
+<div class="logo-band" markdown>
+
+<span class="logo-band__label">Reference surfaces covered here</span>
+
+<span class="logo-chip">
+  <img src="../assets/logos/github.svg" alt="" />
+  GitHub APIs and dashboards
+</span>
+<span class="logo-chip">
+  <img src="../assets/logos/microsoft.svg" alt="" />
+  Microsoft forms and ecosystem inputs
+</span>
+
+</div>
+
 ## In this chapter
 
 <div class="grid cards chapter-grid" markdown>

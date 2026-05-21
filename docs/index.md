@@ -16,6 +16,21 @@ A practical playbook for teams that have already rolled out GitHub Copilot and n
 [Start with the measurement journey](measurement-journey.md){ .md-button .md-button--primary }
 [Browse executive templates](exec-templates/index.md){ .md-button }
 
+<div class="logo-band" markdown>
+
+<span class="logo-band__label">Centered on the platforms most teams already use</span>
+
+<span class="logo-chip">
+  <img src="assets/logos/github.svg" alt="" />
+  GitHub
+</span>
+<span class="logo-chip">
+  <img src="assets/logos/microsoft.svg" alt="" />
+  Microsoft
+</span>
+
+</div>
+
 </div>
 
 ---

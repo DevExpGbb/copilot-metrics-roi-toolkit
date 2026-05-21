@@ -44,6 +44,47 @@
   margin-bottom: 0;
 }
 
+.logo-band {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.logo-band__label {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.logo-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 999px;
+  background-color: color-mix(in srgb, var(--md-default-bg-color) 88%, var(--md-primary-fg-color) 12%);
+  color: var(--md-default-fg-color);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.logo-chip img {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+}
+
+.logo-chip img[src$="github.svg"] {
+  filter: var(--logo-github-filter, none);
+}
+
+[data-md-color-scheme="slate"] {
+  --logo-github-filter: invert(1);
+}
+
 .chapter-grid ul {
   gap: 1rem;
 }
