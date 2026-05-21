@@ -1,6 +1,48 @@
 # Templates
 
-Reusable artifacts for executive readouts, ROI conversations, and measurement planning. Download, customize, and use.
+<div class="section-intro" markdown>
+
+<span class="eyebrow">Chapter 3</span>
+
+Reusable artifacts for executive readouts, ROI conversations, and measurement planning. Start with the template that matches the conversation you need to drive, then customize the downloadable artifact.
+
+</div>
+
+## In this chapter
+
+<div class="grid cards chapter-grid" markdown>
+
+-   :material-table:{ .lg .middle } **[KPI Table](kpi-table.md)**
+
+    ---
+
+    Summarize the most important adoption and impact metrics for leadership in one place.
+
+-   :material-file-document:{ .lg .middle } **[ROI One-Pager](roi-one-pager.md)**
+
+    ---
+
+    Structure the ROI argument when you need a concise renewal or investment narrative.
+
+-   :material-presentation:{ .lg .middle } **[QBR Outline](qbr-outline.md)**
+
+    ---
+
+    Turn your measurement story into a quarterly executive review deck.
+
+-   :material-file-document:{ .lg .middle } **[Measurement Plan](measurement-plan.md)**
+
+    ---
+
+    Align on what to measure, how to collect it, and when to review progress.
+
+-   :material-sync:{ .lg .middle } **[Artifact Maintenance Workflow](artifact-maintenance.md)**
+
+    ---
+
+    Keep the markdown source and downloadable artifacts aligned over time.
+
+</div>
 
 ## Available Templates
 
@@ -21,3 +63,4 @@ See [Artifact Maintenance Workflow](artifact-maintenance.md) for ownership, nami
 - :material-table: Start with the [KPI Table](kpi-table.md) for your next leadership update
 - :material-file-document: Use the [ROI One-Pager](roi-one-pager.md) when justifying license renewal
 - :material-presentation: Follow the [QBR Outline](qbr-outline.md) for quarterly reviews
+- :material-book-open: Use the [Reference chapter](../reference/index.md) when you need supporting source material
