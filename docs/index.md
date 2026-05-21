@@ -22,6 +22,8 @@ A practical playbook for teams that have already rolled out an AI coding agent a
 
 <div class="logo-band" markdown>
 
+<span class="logo-band__label">Guidance by</span>
+
 <span class="logo-chip">
   <img src="assets/logos/github.svg" alt="" />
   GitHub
