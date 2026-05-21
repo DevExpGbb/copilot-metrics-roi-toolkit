@@ -1,3 +1,17 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #0969da;
+  --md-primary-fg-color--light: #218bff;
+  --md-primary-fg-color--dark: #0550ae;
+  --md-accent-fg-color: #0078d4;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #2f81f7;
+  --md-primary-fg-color--light: #58a6ff;
+  --md-primary-fg-color--dark: #1f6feb;
+  --md-accent-fg-color: #4cc2ff;
+}
+
 .hero,
 .section-intro {
   margin: 0 0 1.5rem;
