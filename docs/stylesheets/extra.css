@@ -1,15 +1,80 @@
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #0969da;
-  --md-primary-fg-color--light: #218bff;
-  --md-primary-fg-color--dark: #0550ae;
-  --md-accent-fg-color: #0078d4;
+  --md-primary-fg-color: #107C10;
+  --md-primary-fg-color--light: #4CAF50;
+  --md-primary-fg-color--dark: #0B5C0B;
+  --md-accent-fg-color: #7FBA00;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #2f81f7;
-  --md-primary-fg-color--light: #58a6ff;
-  --md-primary-fg-color--dark: #1f6feb;
-  --md-accent-fg-color: #4cc2ff;
+  --md-primary-fg-color: #4CAF50;
+  --md-primary-fg-color--light: #7FBA00;
+  --md-primary-fg-color--dark: #2E7D32;
+  --md-accent-fg-color: #B4D33A;
+}
+
+/* Announcement bar (custom override) */
+.md-banner {
+  background: linear-gradient(90deg,
+    color-mix(in srgb, var(--md-primary-fg-color--dark) 92%, black 8%),
+    var(--md-primary-fg-color));
+  color: #ffffff;
+}
+
+.announce-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.1rem 0;
+  font-size: 0.78rem;
+}
+
+.announce-bar__credit {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.announce-bar__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.announce-bar__chip img {
+  width: 0.95rem;
+  height: 0.95rem;
+  display: block;
+  filter: invert(1) brightness(1.2);
+}
+
+.announce-bar__label {
+  opacity: 0.92;
+}
+
+.announce-bar__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.announce-bar__cta:hover,
+.announce-bar__cta:focus {
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
 }
 
 .hero,
@@ -115,6 +180,69 @@
 
 .chapter-grid li p:last-child {
   margin-bottom: 0;
+}
+
+/* Compact, numbered, single-column chapter list (Start Here page) */
+.chapter-list {
+  list-style: none;
+  counter-reset: chapter;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.chapter-list li {
+  counter-increment: chapter;
+  position: relative;
+  padding: 0.7rem 1rem 0.7rem 3.1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 0.25rem solid var(--md-primary-fg-color);
+  border-radius: 0.5rem;
+  background-color: var(--md-default-bg-color);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.chapter-list li::before {
+  content: counter(chapter);
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 999px;
+  background: var(--md-primary-fg-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter-list li:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--md-shadow-z1);
+  border-color: var(--md-primary-fg-color--light);
+}
+
+.chapter-list a {
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
+.chapter-list a:hover {
+  color: var(--md-primary-fg-color);
+}
+
+.chapter-list .chapter-list__desc {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85rem;
+  line-height: 1.35;
 }
 
 @media screen and (max-width: 44.9375em) {

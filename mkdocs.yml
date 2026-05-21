@@ -6,6 +6,7 @@ repo_name: DevExpGBB/copilot-metrics-roi-toolkit
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tabs
@@ -21,14 +22,14 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: blue
-      accent: light blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: blue
-      accent: light blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -62,9 +63,8 @@ plugins:
   - search
 
 nav:
-  - Start Here:
-    - Overview: index.md
-    - Measurement Journey: measurement-journey.md
+  - Overview: index.md
+  - Measurement Journey: measurement-journey.md
   - Adoption:
     - Overview: adoption/index.md
     - Quick Start: adoption/quick-start.md
