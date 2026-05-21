@@ -17,12 +17,12 @@ A practical playbook for teams that have already rolled out an AI coding agent a
 [Browse executive templates](exec-templates/index.md){ .md-button }
 
 <div class="text-sm text-gray-600" markdown>
-*Reference setups currently focus on GitHub Copilot as the example agent, but all concepts and frameworks are vendor-neutral.*
+*Reference setups currently focus on GitHub Copilot as the example agent, but concepts and frameworks are agent-neutral.*
 </div>
 
 <div class="logo-band" markdown>
 
-<span class="logo-band__label">Centered on the platforms most teams already use</span>
+<span class="logo-band__label">Guidance by</span>
 
 <span class="logo-chip">
   <img src="assets/logos/github.svg" alt="" />
