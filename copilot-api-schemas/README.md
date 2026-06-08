@@ -19,7 +19,7 @@ This folder is a self-contained toolkit for documenting GitHub Copilot REST API 
 
    This saves raw responses and derived schemas under `live-capture/`.
 3. Compare `live-capture/<id>-schema.json` against the committed `.md` docs to spot schema drift.
-4. If schemas changed, update the relevant `.md` file in `usage-metrics/` or `user-management/`.
+4. If schemas changed, update the relevant `.md` file in `usage-metrics/`, `user-management/`, or `billing-usage/`.
 
 ## Endpoint inventory
 
@@ -48,6 +48,9 @@ This folder is a self-contained toolkit for documenting GitHub Copilot REST API 
 | 21 | User Management | POST | `/orgs/{org}/copilot/billing/selected_users` | org | **Yes** | `user-management/org-selected-users.md` |
 | 22 | User Management | DELETE | `/orgs/{org}/copilot/billing/selected_users` | org | **Yes** | `user-management/org-selected-users.md` |
 | 23 | User Management | GET | `/orgs/{org}/members/{username}/copilot` | org | No | `user-management/org-member-copilot.md` |
+| 24 | Billing Usage | GET | `/enterprises/{enterprise}/settings/billing/ai_credit/usage` | enterprise | No | `billing-usage/enterprise-ai-credit-usage.md` |
+| 25 | Billing Usage | GET | `/organizations/{org}/settings/billing/ai_credit/usage` | org | No | `billing-usage/org-ai-credit-usage.md` |
+| 26 | Billing Usage | GET | `/users/{username}/settings/billing/ai_credit/usage` | user | No | `billing-usage/user-ai-credit-usage.md` |
 
 Mutating endpoints (`POST`/`DELETE`) are documented only. `fetch-schemas.sh` never executes them.
 
@@ -77,4 +80,6 @@ GitHub may add, remove, or change fields without much notice. Run `fetch-schemas
 
 - GitHub Copilot Usage Metrics API: https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics
 - GitHub Copilot User Management API: https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-user-management
+- GitHub Billing Usage API (enterprise): https://docs.github.com/en/enterprise-cloud@latest/rest/billing/usage
+- GitHub Billing Usage API (organization/user): https://docs.github.com/en/rest/billing/usage
 - API version used: `2026-03-10`

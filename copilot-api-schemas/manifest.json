@@ -2,7 +2,9 @@
   "api_version": "2026-03-10",
   "source_docs": [
     "https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics?apiVersion=2026-03-10",
-    "https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-user-management?apiVersion=2026-03-10"
+    "https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-user-management?apiVersion=2026-03-10",
+    "https://docs.github.com/en/enterprise-cloud@latest/rest/billing/usage?apiVersion=2026-03-10",
+    "https://docs.github.com/en/rest/billing/usage?apiVersion=2026-03-10"
   ],
   "endpoints": [
     {
@@ -288,6 +290,42 @@
       "scopes_classic": ["manage_billing:copilot", "read:org"],
       "doc_file": "user-management/org-member-copilot.md",
       "description": "Get Copilot seat assignment details for an organization member"
+    },
+    {
+      "id": "enterprise-ai-credit-usage",
+      "category": "billing-usage",
+      "method": "GET",
+      "path": "/enterprises/{enterprise}/settings/billing/ai_credit/usage",
+      "query_params": ["year", "month", "day", "organization", "user", "model", "product", "cost_center_id"],
+      "level": "enterprise",
+      "mutating": false,
+      "scopes_classic": ["manage_billing:copilot", "admin:enterprise"],
+      "doc_file": "billing-usage/enterprise-ai-credit-usage.md",
+      "description": "Get AI credit usage report for an enterprise"
+    },
+    {
+      "id": "org-ai-credit-usage",
+      "category": "billing-usage",
+      "method": "GET",
+      "path": "/organizations/{org}/settings/billing/ai_credit/usage",
+      "query_params": ["year", "month", "day", "user", "model", "product"],
+      "level": "org",
+      "mutating": false,
+      "scopes_classic": ["manage_billing:copilot", "admin:org"],
+      "doc_file": "billing-usage/org-ai-credit-usage.md",
+      "description": "Get AI credit usage report for an organization"
+    },
+    {
+      "id": "user-ai-credit-usage",
+      "category": "billing-usage",
+      "method": "GET",
+      "path": "/users/{username}/settings/billing/ai_credit/usage",
+      "query_params": ["year", "month", "day", "model", "product"],
+      "level": "user",
+      "mutating": false,
+      "scopes_classic": [],
+      "doc_file": "billing-usage/user-ai-credit-usage.md",
+      "description": "Get AI credit usage report for a user"
     }
   ]
 }
